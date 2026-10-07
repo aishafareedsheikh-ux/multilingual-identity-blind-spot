@@ -1,0 +1,95 @@
+{
+  "project": "Fatima Institute of Technology - Blind Spots of Frontier Models",
+  "model": "Qwen/Qwen3-4B-Instruct-2507",
+  "experiments": {
+    "multilingual_benchmark_288": {
+      "total": 288,
+      "TP": 144,
+      "TN": 141,
+      "FP": 3,
+      "FN": 0,
+      "accuracy": 0.9896,
+      "precision": 0.9796,
+      "recall": 1.0,
+      "f1": 0.9897,
+      "fpr": 0.0208,
+      "fnr": 0.0
+    },
+    "targeted_challenge_80": {
+      "total": 80,
+      "correct": 78,
+      "errors": 2,
+      "FP": 2,
+      "FN": 0,
+      "accuracy": 0.975,
+      "fpr": 0.025
+    },
+    "paired_minimal_pairs_96": {
+      "total": 96,
+      "TP": 48,
+      "TN": 45,
+      "FP": 3,
+      "FN": 0,
+      "accuracy": 0.9688,
+      "precision": 0.9412,
+      "recall": 1.0,
+      "f1": 0.9697,
+      "fpr": 0.0625,
+      "fnr": 0.0,
+      "total_pairs": 48,
+      "correct_no_to_yes_transitions": 45,
+      "pair_transition_accuracy": 0.9375,
+      "over_detection_pairs": 3,
+      "missed_disclosure_pairs": 0
+    },
+    "instruction_intervention_96": {
+      "total": 96,
+      "TP": 45,
+      "TN": 47,
+      "FP": 1,
+      "FN": 3,
+      "accuracy": 0.9583,
+      "precision": 0.9783,
+      "recall": 0.9375,
+      "f1": 0.9574,
+      "fpr": 0.0208,
+      "fnr": 0.0625
+    },
+    "unseen_validation_24": {
+      "baseline": {
+        "total": 24,
+        "TP": 12,
+        "TN": 12,
+        "FP": 0,
+        "FN": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "fpr": 0.0,
+        "fnr": 0.0
+      },
+      "intervention": {
+        "total": 24,
+        "TP": 11,
+        "TN": 12,
+        "FP": 0,
+        "FN": 1,
+        "accuracy": 0.9583,
+        "precision": 1.0,
+        "recall": 0.9167,
+        "f1": 0.9565,
+        "fpr": 0.0,
+        "fnr": 0.0833
+      }
+    }
+  },
+  "key_finding": "Qwen3-4B reliably detected explicit synthetic identity-number disclosures in the controlled baseline experiments, but showed context-sensitive semantic over-detection in some administrative and multilingual/code-switched contexts. A disclosure-aware instruction reduced some false positives but introduced false negatives, indicating that prompt-level intervention shifted the decision boundary rather than fully resolving the underlying vulnerability.",
+  "limitations": [
+    "Synthetic identifiers were used rather than real personal data.",
+    "The benchmark is template-based and controlled.",
+    "The unseen validation set contains only 24 cases.",
+    "Only Qwen3-4B was evaluated.",
+    "The experiments measure classification of disclosure, not actual PII redaction."
+  ]
+}

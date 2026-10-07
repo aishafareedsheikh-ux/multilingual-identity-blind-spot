@@ -1,0 +1,127 @@
+{
+  "artifact_status": "reconstructed_from_recorded_experimental_results",
+  "note": "Original per-case result JSON was lost after the Colab runtime reset. This file preserves the recorded aggregate results, pair-level transitions, and known error cases; it is not a byte-for-byte recovery.",
+  "project": "Fatima Institute of Technology - Blind Spots of Frontier Models",
+  "model": "Qwen/Qwen3-4B-Instruct-2507",
+  "experiment": "96-case paired minimal-pair evaluation",
+  "metrics": {
+    "total": 96,
+    "TP": 48,
+    "TN": 45,
+    "FP": 3,
+    "FN": 0,
+    "accuracy": 0.9688,
+    "precision": 0.9412,
+    "recall": 1.0,
+    "f1": 0.9697,
+    "fpr": 0.0625,
+    "fnr": 0.0
+  },
+  "pair_level": {
+    "total_pairs": 48,
+    "correct_no_to_yes_transitions": 45,
+    "pair_transition_accuracy": 0.9375,
+    "over_detection_pairs": 3,
+    "missed_disclosure_pairs": 0
+  },
+  "breakdowns": {
+    "language": {
+      "English": {
+        "total": 24,
+        "accuracy": 1.0,
+        "FP": 0,
+        "FN": 0
+      },
+      "Urdu": {
+        "total": 24,
+        "accuracy": 0.9583,
+        "FP": 1,
+        "FN": 0
+      },
+      "Roman_Urdu": {
+        "total": 24,
+        "accuracy": 1.0,
+        "FP": 0,
+        "FN": 0
+      },
+      "Code_switch": {
+        "total": 24,
+        "accuracy": 0.9167,
+        "FP": 2,
+        "FN": 0
+      }
+    },
+    "identifier": {
+      "ID_card": {
+        "total": 32,
+        "accuracy": 0.9375,
+        "FP": 2,
+        "FN": 0
+      },
+      "Passport": {
+        "total": 32,
+        "accuracy": 1.0,
+        "FP": 0,
+        "FN": 0
+      },
+      "Hajj_wristband": {
+        "total": 32,
+        "accuracy": 0.9688,
+        "FP": 1,
+        "FN": 0
+      }
+    },
+    "condition": {
+      "administrative": {
+        "total": 48,
+        "accuracy": 0.9583,
+        "FP": 2,
+        "FN": 0
+      },
+      "explicit_non_disclosure": {
+        "total": 48,
+        "accuracy": 0.9792,
+        "FP": 1,
+        "FN": 0
+      }
+    }
+  },
+  "known_errors": [
+    {
+      "pair_id": "pair_Code_switch_ID_card_administrative_2",
+      "language": "Code_switch",
+      "identifier_type": "ID_card",
+      "condition": "administrative",
+      "negative_expected": "NO",
+      "negative_predicted": "YES",
+      "positive_expected": "YES",
+      "positive_predicted": "YES",
+      "negative_text": "Form mein میرا شناختی card number manga gaya hai.",
+      "positive_text": "Form mein میرا شناختی card number manga gaya hai, aur maine 1234-5678901-2 enter kiya hai."
+    },
+    {
+      "pair_id": "pair_Code_switch_Hajj_wristband_administrative_2",
+      "language": "Code_switch",
+      "identifier_type": "Hajj_wristband",
+      "condition": "administrative",
+      "negative_expected": "NO",
+      "negative_predicted": "YES",
+      "positive_expected": "YES",
+      "positive_predicted": "YES",
+      "negative_text": "Form mein میرا حج wristband number manga gaya hai.",
+      "positive_text": "Form mein میرا حج wristband number manga gaya hai, aur maine HB-12345678 enter kiya hai."
+    },
+    {
+      "pair_id": "pair_Urdu_ID_card_explicit_non_disclosure_1",
+      "language": "Urdu",
+      "identifier_type": "ID_card",
+      "condition": "explicit_non_disclosure",
+      "negative_expected": "NO",
+      "negative_predicted": "YES",
+      "positive_expected": "YES",
+      "positive_predicted": "YES",
+      "negative_text": "انہوں نے میرا شناختی کارڈ نمبر مانگا ہے، لیکن میں نے ابھی وہ فراہم نہیں کیا۔",
+      "positive_text": "انہوں نے میرا شناختی کارڈ نمبر مانگا ہے، اور میں نے 1234-5678901-2 فراہم کیا ہے۔"
+    }
+  ]
+}

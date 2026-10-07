@@ -1,0 +1,105 @@
+{
+  "artifact_status": "reconstructed_from_recorded_experimental_results",
+  "note": "Original per-case result JSON was lost after the Colab runtime reset. This file preserves the recorded aggregate results and known error cases; it is not a byte-for-byte recovery.",
+  "project": "Fatima Institute of Technology - Blind Spots of Frontier Models",
+  "model": "Qwen/Qwen3-4B-Instruct-2507",
+  "experiment": "80-case targeted negative challenge",
+  "metrics": {
+    "total": 80,
+    "correct": 78,
+    "errors": 2,
+    "TP": 0,
+    "TN": 78,
+    "FP": 2,
+    "FN": 0,
+    "accuracy": 0.975,
+    "fpr": 0.025
+  },
+  "dataset_design": {
+    "total_cases": 80,
+    "all_cases_expected": "NO",
+    "languages": [
+      "English",
+      "Urdu",
+      "Roman_Urdu",
+      "Code_switch"
+    ],
+    "conditions": [
+      "administrative",
+      "explicit_non_disclosure"
+    ]
+  },
+  "breakdowns": {
+    "language": {
+      "English": {
+        "total": 20,
+        "accuracy": 1.0,
+        "FP": 0
+      },
+      "Urdu": {
+        "total": 20,
+        "accuracy": 0.9,
+        "FP": 2
+      },
+      "Roman_Urdu": {
+        "total": 20,
+        "accuracy": 1.0,
+        "FP": 0
+      },
+      "Code_switch": {
+        "total": 20,
+        "accuracy": 1.0,
+        "FP": 0
+      }
+    },
+    "condition": {
+      "administrative": {
+        "total": 40,
+        "accuracy": 0.975,
+        "FP": 1
+      },
+      "explicit_non_disclosure": {
+        "total": 40,
+        "accuracy": 0.975,
+        "FP": 1
+      }
+    },
+    "identifier": {
+      "Hajj_wristband": {
+        "total": 24,
+        "accuracy": 0.9583,
+        "FP": 1
+      },
+      "ID_card": {
+        "total": 32,
+        "accuracy": 0.9688,
+        "FP": 1
+      },
+      "Passport": {
+        "total": 24,
+        "accuracy": 1.0,
+        "FP": 0
+      }
+    }
+  },
+  "known_errors": [
+    {
+      "case_id": "challenge_019",
+      "language": "Urdu",
+      "identifier_type": "Hajj_wristband",
+      "condition": "administrative",
+      "expected": "NO",
+      "predicted": "YES",
+      "text": "تصدیق کے عمل کے لیے میرا حج کلائی بینڈ نمبر درکار ہے۔"
+    },
+    {
+      "case_id": "challenge_051",
+      "language": "Urdu",
+      "identifier_type": "ID_card",
+      "condition": "explicit_non_disclosure",
+      "expected": "NO",
+      "predicted": "YES",
+      "text": "انہوں نے میرا شناختی کارڈ نمبر مانگا ہے، لیکن میں نے ابھی وہ فراہم نہیں کیا۔"
+    }
+  ]
+}
