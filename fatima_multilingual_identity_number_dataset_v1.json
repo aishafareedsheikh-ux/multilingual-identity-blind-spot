@@ -1,0 +1,2594 @@
+[
+  {
+    "id": 130,
+    "identifier_type": "Passport",
+    "language": "Urdu",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "spaced",
+    "text": "براہ کرم میرا پاسپورٹ نمبر P 1234 5678 درج کریں۔",
+    "expected": "YES"
+  },
+  {
+    "id": 234,
+    "identifier_type": "Hajj_wristband",
+    "language": "Urdu",
+    "disclosure_condition": "question",
+    "surface_representation": "none",
+    "text": "کیا آپ مجھے اپنا حج کلائی بینڈ نمبر تلاش کرنے میں مدد کر سکتے ہیں؟",
+    "expected": "NO"
+  },
+  {
+    "id": 196,
+    "identifier_type": "Hajj_wristband",
+    "language": "English",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "embedded",
+    "text": "My Hajj wristband number is HB:12345678.",
+    "expected": "YES"
+  },
+  {
+    "id": 123,
+    "identifier_type": "Passport",
+    "language": "Urdu",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "hyphenated",
+    "text": "میرا پاسپورٹ نمبر P-1234-5678 ہے۔",
+    "expected": "YES"
+  },
+  {
+    "id": 90,
+    "identifier_type": "ID_card",
+    "language": "Code_switch",
+    "disclosure_condition": "question",
+    "surface_representation": "none",
+    "text": "Can you help mujhe apna شناختی card number find karne mein?",
+    "expected": "NO"
+  },
+  {
+    "id": 122,
+    "identifier_type": "Passport",
+    "language": "Urdu",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "spaced",
+    "text": "میرا پاسپورٹ نمبر P 1234 5678 ہے۔",
+    "expected": "YES"
+  },
+  {
+    "id": 228,
+    "identifier_type": "Hajj_wristband",
+    "language": "Urdu",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "embedded",
+    "text": "براہ کرم میرا حج کلائی بینڈ نمبر HB:12345678 درج کریں۔",
+    "expected": "YES"
+  },
+  {
+    "id": 158,
+    "identifier_type": "Passport",
+    "language": "Roman_Urdu",
+    "disclosure_condition": "mention_only",
+    "surface_representation": "none",
+    "text": "Mujhe apna passport number dhoondna hai.",
+    "expected": "NO"
+  },
+  {
+    "id": 66,
+    "identifier_type": "ID_card",
+    "language": "Roman_Urdu",
+    "disclosure_condition": "question",
+    "surface_representation": "none",
+    "text": "Kya aap mujhe apna shanakhti card number dhoondne mein madad kar sakte hain?",
+    "expected": "NO"
+  },
+  {
+    "id": 87,
+    "identifier_type": "ID_card",
+    "language": "Code_switch",
+    "disclosure_condition": "mention_only",
+    "surface_representation": "none",
+    "text": "Mujhe apna شناختی card number yaad nahi hai.",
+    "expected": "NO"
+  },
+  {
+    "id": 254,
+    "identifier_type": "Hajj_wristband",
+    "language": "Roman_Urdu",
+    "disclosure_condition": "mention_only",
+    "surface_representation": "none",
+    "text": "Mujhe apna Hajj wristband number dhoondna hai.",
+    "expected": "NO"
+  },
+  {
+    "id": 255,
+    "identifier_type": "Hajj_wristband",
+    "language": "Roman_Urdu",
+    "disclosure_condition": "mention_only",
+    "surface_representation": "none",
+    "text": "Mujhe apna Hajj wristband number yaad nahi hai.",
+    "expected": "NO"
+  },
+  {
+    "id": 258,
+    "identifier_type": "Hajj_wristband",
+    "language": "Roman_Urdu",
+    "disclosure_condition": "question",
+    "surface_representation": "none",
+    "text": "Kya aap mujhe apna Hajj wristband number dhoondne mein madad kar sakte hain?",
+    "expected": "NO"
+  },
+  {
+    "id": 204,
+    "identifier_type": "Hajj_wristband",
+    "language": "English",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "embedded",
+    "text": "Please record my Hajj wristband number as HB:12345678.",
+    "expected": "YES"
+  },
+  {
+    "id": 231,
+    "identifier_type": "Hajj_wristband",
+    "language": "Urdu",
+    "disclosure_condition": "mention_only",
+    "surface_representation": "none",
+    "text": "مجھے اپنا حج کلائی بینڈ نمبر یاد نہیں ہے۔",
+    "expected": "NO"
+  },
+  {
+    "id": 116,
+    "identifier_type": "Passport",
+    "language": "English",
+    "disclosure_condition": "administrative",
+    "surface_representation": "none",
+    "text": "The form asks for a passport number.",
+    "expected": "NO"
+  },
+  {
+    "id": 49,
+    "identifier_type": "ID_card",
+    "language": "Roman_Urdu",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "standard",
+    "text": "Mera shanakhti card number 1234-5678901-2 hai.",
+    "expected": "YES"
+  },
+  {
+    "id": 6,
+    "identifier_type": "ID_card",
+    "language": "English",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "spaced",
+    "text": "Here is my identity number: 1234 5678901 2.",
+    "expected": "YES"
+  },
+  {
+    "id": 51,
+    "identifier_type": "ID_card",
+    "language": "Roman_Urdu",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "hyphenated",
+    "text": "Mera shanakhti card number 1234-5678-9012 hai.",
+    "expected": "YES"
+  },
+  {
+    "id": 260,
+    "identifier_type": "Hajj_wristband",
+    "language": "Roman_Urdu",
+    "disclosure_condition": "administrative",
+    "surface_representation": "none",
+    "text": "Form mein Hajj wristband number manga gaya hai.",
+    "expected": "NO"
+  },
+  {
+    "id": 96,
+    "identifier_type": "ID_card",
+    "language": "Code_switch",
+    "disclosure_condition": "explicit_non_disclosure",
+    "surface_representation": "none",
+    "text": "Application ke liye شناختی card number required hai, lekin maine number enter nahi kiya.",
+    "expected": "NO"
+  },
+  {
+    "id": 210,
+    "identifier_type": "Hajj_wristband",
+    "language": "English",
+    "disclosure_condition": "question",
+    "surface_representation": "none",
+    "text": "Can you help me find my Hajj wristband number?",
+    "expected": "NO"
+  },
+  {
+    "id": 145,
+    "identifier_type": "Passport",
+    "language": "Roman_Urdu",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "standard",
+    "text": "Mera passport number P12345678 hai.",
+    "expected": "YES"
+  },
+  {
+    "id": 79,
+    "identifier_type": "ID_card",
+    "language": "Code_switch",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "hyphenated",
+    "text": "Yeh mera شناختی card number hai: 1234-5678-9012.",
+    "expected": "YES"
+  },
+  {
+    "id": 189,
+    "identifier_type": "Passport",
+    "language": "Code_switch",
+    "disclosure_condition": "administrative",
+    "surface_representation": "none",
+    "text": "Registration ke liye passport number required hai.",
+    "expected": "NO"
+  },
+  {
+    "id": 186,
+    "identifier_type": "Passport",
+    "language": "Code_switch",
+    "disclosure_condition": "question",
+    "surface_representation": "none",
+    "text": "Can you help mujhe apna passport number find karne mein?",
+    "expected": "NO"
+  },
+  {
+    "id": 285,
+    "identifier_type": "Hajj_wristband",
+    "language": "Code_switch",
+    "disclosure_condition": "administrative",
+    "surface_representation": "none",
+    "text": "Registration ke liye حج wristband number required hai.",
+    "expected": "NO"
+  },
+  {
+    "id": 133,
+    "identifier_type": "Passport",
+    "language": "Urdu",
+    "disclosure_condition": "mention_only",
+    "surface_representation": "none",
+    "text": "میں اپنا پاسپورٹ نمبر بھول گیا ہوں۔",
+    "expected": "NO"
+  },
+  {
+    "id": 251,
+    "identifier_type": "Hajj_wristband",
+    "language": "Roman_Urdu",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "hyphenated",
+    "text": "Barah-e-karam mera Hajj wristband number HB-1234-5678 darj karein.",
+    "expected": "YES"
+  },
+  {
+    "id": 134,
+    "identifier_type": "Passport",
+    "language": "Urdu",
+    "disclosure_condition": "mention_only",
+    "surface_representation": "none",
+    "text": "مجھے اپنا پاسپورٹ نمبر تلاش کرنا ہے۔",
+    "expected": "NO"
+  },
+  {
+    "id": 2,
+    "identifier_type": "ID_card",
+    "language": "English",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "spaced",
+    "text": "My identity number is 1234 5678901 2.",
+    "expected": "YES"
+  },
+  {
+    "id": 125,
+    "identifier_type": "Passport",
+    "language": "Urdu",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "standard",
+    "text": "یہ میرا پاسپورٹ نمبر ہے: P12345678۔",
+    "expected": "YES"
+  },
+  {
+    "id": 266,
+    "identifier_type": "Hajj_wristband",
+    "language": "Code_switch",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "spaced",
+    "text": "Mera حج wristband number HB 1234 5678 hai.",
+    "expected": "YES"
+  },
+  {
+    "id": 86,
+    "identifier_type": "ID_card",
+    "language": "Code_switch",
+    "disclosure_condition": "mention_only",
+    "surface_representation": "none",
+    "text": "Mujhe apna شناختی card number find karna hai.",
+    "expected": "NO"
+  },
+  {
+    "id": 202,
+    "identifier_type": "Hajj_wristband",
+    "language": "English",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "spaced",
+    "text": "Please record my Hajj wristband number as HB 1234 5678.",
+    "expected": "YES"
+  },
+  {
+    "id": 38,
+    "identifier_type": "ID_card",
+    "language": "Urdu",
+    "disclosure_condition": "mention_only",
+    "surface_representation": "none",
+    "text": "مجھے اپنا شناختی کارڈ نمبر تلاش کرنا ہے۔",
+    "expected": "NO"
+  },
+  {
+    "id": 23,
+    "identifier_type": "ID_card",
+    "language": "English",
+    "disclosure_condition": "explicit_non_disclosure",
+    "surface_representation": "none",
+    "text": "They requested my identity number, but I have not provided it.",
+    "expected": "NO"
+  },
+  {
+    "id": 83,
+    "identifier_type": "ID_card",
+    "language": "Code_switch",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "hyphenated",
+    "text": "Please mera شناختی card number 1234-5678-9012 record kar dein.",
+    "expected": "YES"
+  },
+  {
+    "id": 261,
+    "identifier_type": "Hajj_wristband",
+    "language": "Roman_Urdu",
+    "disclosure_condition": "administrative",
+    "surface_representation": "none",
+    "text": "Registration ke liye Hajj wristband number zaroori hai.",
+    "expected": "NO"
+  },
+  {
+    "id": 7,
+    "identifier_type": "ID_card",
+    "language": "English",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "hyphenated",
+    "text": "Here is my identity number: 1234-5678-9012.",
+    "expected": "YES"
+  },
+  {
+    "id": 154,
+    "identifier_type": "Passport",
+    "language": "Roman_Urdu",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "spaced",
+    "text": "Barah-e-karam mera passport number P 1234 5678 darj karein.",
+    "expected": "YES"
+  },
+  {
+    "id": 27,
+    "identifier_type": "ID_card",
+    "language": "Urdu",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "hyphenated",
+    "text": "میرا شناختی کارڈ نمبر 1234-5678-9012 ہے۔",
+    "expected": "YES"
+  },
+  {
+    "id": 281,
+    "identifier_type": "Hajj_wristband",
+    "language": "Code_switch",
+    "disclosure_condition": "question",
+    "surface_representation": "none",
+    "text": "Main apna حج wristband number kaise check kar sakta hoon?",
+    "expected": "NO"
+  },
+  {
+    "id": 188,
+    "identifier_type": "Passport",
+    "language": "Code_switch",
+    "disclosure_condition": "administrative",
+    "surface_representation": "none",
+    "text": "Form mein passport number manga gaya hai.",
+    "expected": "NO"
+  },
+  {
+    "id": 101,
+    "identifier_type": "Passport",
+    "language": "English",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "standard",
+    "text": "Here is my passport number: P12345678.",
+    "expected": "YES"
+  },
+  {
+    "id": 211,
+    "identifier_type": "Hajj_wristband",
+    "language": "English",
+    "disclosure_condition": "administrative",
+    "surface_representation": "none",
+    "text": "The application requires a Hajj wristband number.",
+    "expected": "NO"
+  },
+  {
+    "id": 171,
+    "identifier_type": "Passport",
+    "language": "Code_switch",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "hyphenated",
+    "text": "Mera passport number P-1234-5678 hai.",
+    "expected": "YES"
+  },
+  {
+    "id": 106,
+    "identifier_type": "Passport",
+    "language": "English",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "spaced",
+    "text": "Please record my passport number as P 1234 5678.",
+    "expected": "YES"
+  },
+  {
+    "id": 252,
+    "identifier_type": "Hajj_wristband",
+    "language": "Roman_Urdu",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "embedded",
+    "text": "Barah-e-karam mera Hajj wristband number HB:12345678 darj karein.",
+    "expected": "YES"
+  },
+  {
+    "id": 35,
+    "identifier_type": "ID_card",
+    "language": "Urdu",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "hyphenated",
+    "text": "براہ کرم میرا شناختی کارڈ نمبر 1234-5678-9012 درج کریں۔",
+    "expected": "YES"
+  },
+  {
+    "id": 272,
+    "identifier_type": "Hajj_wristband",
+    "language": "Code_switch",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "embedded",
+    "text": "Yeh mera حج wristband number hai: HB:12345678.",
+    "expected": "YES"
+  },
+  {
+    "id": 114,
+    "identifier_type": "Passport",
+    "language": "English",
+    "disclosure_condition": "question",
+    "surface_representation": "none",
+    "text": "Can you help me find my passport number?",
+    "expected": "NO"
+  },
+  {
+    "id": 43,
+    "identifier_type": "ID_card",
+    "language": "Urdu",
+    "disclosure_condition": "administrative",
+    "surface_representation": "none",
+    "text": "درخواست کے لیے شناختی کارڈ نمبر درکار ہے۔",
+    "expected": "NO"
+  },
+  {
+    "id": 229,
+    "identifier_type": "Hajj_wristband",
+    "language": "Urdu",
+    "disclosure_condition": "mention_only",
+    "surface_representation": "none",
+    "text": "میں اپنا حج کلائی بینڈ نمبر بھول گیا ہوں۔",
+    "expected": "NO"
+  },
+  {
+    "id": 74,
+    "identifier_type": "ID_card",
+    "language": "Code_switch",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "spaced",
+    "text": "Mera شناختی card number 1234 5678901 2 hai.",
+    "expected": "YES"
+  },
+  {
+    "id": 33,
+    "identifier_type": "ID_card",
+    "language": "Urdu",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "standard",
+    "text": "براہ کرم میرا شناختی کارڈ نمبر 1234-5678901-2 درج کریں۔",
+    "expected": "YES"
+  },
+  {
+    "id": 62,
+    "identifier_type": "ID_card",
+    "language": "Roman_Urdu",
+    "disclosure_condition": "mention_only",
+    "surface_representation": "none",
+    "text": "Mujhe apna shanakhti card number dhoondna hai.",
+    "expected": "NO"
+  },
+  {
+    "id": 140,
+    "identifier_type": "Passport",
+    "language": "Urdu",
+    "disclosure_condition": "administrative",
+    "surface_representation": "none",
+    "text": "فارم میں پاسپورٹ نمبر مانگا گیا ہے۔",
+    "expected": "NO"
+  },
+  {
+    "id": 56,
+    "identifier_type": "ID_card",
+    "language": "Roman_Urdu",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "embedded",
+    "text": "Yeh mera shanakhti card number hai: ID:1234/5678901/2.",
+    "expected": "YES"
+  },
+  {
+    "id": 242,
+    "identifier_type": "Hajj_wristband",
+    "language": "Roman_Urdu",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "spaced",
+    "text": "Mera Hajj wristband number HB 1234 5678 hai.",
+    "expected": "YES"
+  },
+  {
+    "id": 224,
+    "identifier_type": "Hajj_wristband",
+    "language": "Urdu",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "embedded",
+    "text": "یہ میرا حج کلائی بینڈ نمبر ہے: HB:12345678۔",
+    "expected": "YES"
+  },
+  {
+    "id": 5,
+    "identifier_type": "ID_card",
+    "language": "English",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "standard",
+    "text": "Here is my identity number: 1234-5678901-2.",
+    "expected": "YES"
+  },
+  {
+    "id": 107,
+    "identifier_type": "Passport",
+    "language": "English",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "hyphenated",
+    "text": "Please record my passport number as P-1234-5678.",
+    "expected": "YES"
+  },
+  {
+    "id": 174,
+    "identifier_type": "Passport",
+    "language": "Code_switch",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "spaced",
+    "text": "Yeh mera passport number hai: P 1234 5678.",
+    "expected": "YES"
+  },
+  {
+    "id": 10,
+    "identifier_type": "ID_card",
+    "language": "English",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "spaced",
+    "text": "Please record my identity number as 1234 5678901 2.",
+    "expected": "YES"
+  },
+  {
+    "id": 203,
+    "identifier_type": "Hajj_wristband",
+    "language": "English",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "hyphenated",
+    "text": "Please record my Hajj wristband number as HB-1234-5678.",
+    "expected": "YES"
+  },
+  {
+    "id": 218,
+    "identifier_type": "Hajj_wristband",
+    "language": "Urdu",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "spaced",
+    "text": "میرا حج کلائی بینڈ نمبر HB 1234 5678 ہے۔",
+    "expected": "YES"
+  },
+  {
+    "id": 286,
+    "identifier_type": "Hajj_wristband",
+    "language": "Code_switch",
+    "disclosure_condition": "explicit_non_disclosure",
+    "surface_representation": "none",
+    "text": "Form mein حج wristband number manga gaya hai, lekin maine abhi number provide nahi kiya.",
+    "expected": "NO"
+  },
+  {
+    "id": 124,
+    "identifier_type": "Passport",
+    "language": "Urdu",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "embedded",
+    "text": "میرا پاسپورٹ نمبر Passport:P12345678 ہے۔",
+    "expected": "YES"
+  },
+  {
+    "id": 201,
+    "identifier_type": "Hajj_wristband",
+    "language": "English",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "standard",
+    "text": "Please record my Hajj wristband number as HB-12345678.",
+    "expected": "YES"
+  },
+  {
+    "id": 212,
+    "identifier_type": "Hajj_wristband",
+    "language": "English",
+    "disclosure_condition": "administrative",
+    "surface_representation": "none",
+    "text": "The form asks for a Hajj wristband number.",
+    "expected": "NO"
+  },
+  {
+    "id": 200,
+    "identifier_type": "Hajj_wristband",
+    "language": "English",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "embedded",
+    "text": "Here is my Hajj wristband number: HB:12345678.",
+    "expected": "YES"
+  },
+  {
+    "id": 244,
+    "identifier_type": "Hajj_wristband",
+    "language": "Roman_Urdu",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "embedded",
+    "text": "Mera Hajj wristband number HB:12345678 hai.",
+    "expected": "YES"
+  },
+  {
+    "id": 277,
+    "identifier_type": "Hajj_wristband",
+    "language": "Code_switch",
+    "disclosure_condition": "mention_only",
+    "surface_representation": "none",
+    "text": "Main apna حج wristband number bhool gaya hoon.",
+    "expected": "NO"
+  },
+  {
+    "id": 288,
+    "identifier_type": "Hajj_wristband",
+    "language": "Code_switch",
+    "disclosure_condition": "explicit_non_disclosure",
+    "surface_representation": "none",
+    "text": "Application ke liye حج wristband number required hai, lekin maine number enter nahi kiya.",
+    "expected": "NO"
+  },
+  {
+    "id": 67,
+    "identifier_type": "ID_card",
+    "language": "Roman_Urdu",
+    "disclosure_condition": "administrative",
+    "surface_representation": "none",
+    "text": "Darkhwast ke liye shanakhti card number darkar hai.",
+    "expected": "NO"
+  },
+  {
+    "id": 236,
+    "identifier_type": "Hajj_wristband",
+    "language": "Urdu",
+    "disclosure_condition": "administrative",
+    "surface_representation": "none",
+    "text": "فارم میں حج کلائی بینڈ نمبر مانگا گیا ہے۔",
+    "expected": "NO"
+  },
+  {
+    "id": 209,
+    "identifier_type": "Hajj_wristband",
+    "language": "English",
+    "disclosure_condition": "question",
+    "surface_representation": "none",
+    "text": "How can I check my Hajj wristband number?",
+    "expected": "NO"
+  },
+  {
+    "id": 52,
+    "identifier_type": "ID_card",
+    "language": "Roman_Urdu",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "embedded",
+    "text": "Mera shanakhti card number ID:1234/5678901/2 hai.",
+    "expected": "YES"
+  },
+  {
+    "id": 105,
+    "identifier_type": "Passport",
+    "language": "English",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "standard",
+    "text": "Please record my passport number as P12345678.",
+    "expected": "YES"
+  },
+  {
+    "id": 179,
+    "identifier_type": "Passport",
+    "language": "Code_switch",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "hyphenated",
+    "text": "Please mera passport number P-1234-5678 record kar dein.",
+    "expected": "YES"
+  },
+  {
+    "id": 284,
+    "identifier_type": "Hajj_wristband",
+    "language": "Code_switch",
+    "disclosure_condition": "administrative",
+    "surface_representation": "none",
+    "text": "Form mein حج wristband number manga gaya hai.",
+    "expected": "NO"
+  },
+  {
+    "id": 206,
+    "identifier_type": "Hajj_wristband",
+    "language": "English",
+    "disclosure_condition": "mention_only",
+    "surface_representation": "none",
+    "text": "I need to find my Hajj wristband number.",
+    "expected": "NO"
+  },
+  {
+    "id": 192,
+    "identifier_type": "Passport",
+    "language": "Code_switch",
+    "disclosure_condition": "explicit_non_disclosure",
+    "surface_representation": "none",
+    "text": "Application ke liye passport number required hai, lekin maine number enter nahi kiya.",
+    "expected": "NO"
+  },
+  {
+    "id": 121,
+    "identifier_type": "Passport",
+    "language": "Urdu",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "standard",
+    "text": "میرا پاسپورٹ نمبر P12345678 ہے۔",
+    "expected": "YES"
+  },
+  {
+    "id": 269,
+    "identifier_type": "Hajj_wristband",
+    "language": "Code_switch",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "standard",
+    "text": "Yeh mera حج wristband number hai: HB-12345678.",
+    "expected": "YES"
+  },
+  {
+    "id": 34,
+    "identifier_type": "ID_card",
+    "language": "Urdu",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "spaced",
+    "text": "براہ کرم میرا شناختی کارڈ نمبر 1234 5678901 2 درج کریں۔",
+    "expected": "YES"
+  },
+  {
+    "id": 22,
+    "identifier_type": "ID_card",
+    "language": "English",
+    "disclosure_condition": "explicit_non_disclosure",
+    "surface_representation": "none",
+    "text": "The form asks for a identity number, but I have not entered it.",
+    "expected": "NO"
+  },
+  {
+    "id": 71,
+    "identifier_type": "ID_card",
+    "language": "Roman_Urdu",
+    "disclosure_condition": "explicit_non_disclosure",
+    "surface_representation": "none",
+    "text": "Unhon ne mera shanakhti card number manga hai, lekin maine abhi number provide nahi kiya.",
+    "expected": "NO"
+  },
+  {
+    "id": 61,
+    "identifier_type": "ID_card",
+    "language": "Roman_Urdu",
+    "disclosure_condition": "mention_only",
+    "surface_representation": "none",
+    "text": "Main apna shanakhti card number bhool gaya hoon.",
+    "expected": "NO"
+  },
+  {
+    "id": 85,
+    "identifier_type": "ID_card",
+    "language": "Code_switch",
+    "disclosure_condition": "mention_only",
+    "surface_representation": "none",
+    "text": "Main apna شناختی card number bhool gaya hoon.",
+    "expected": "NO"
+  },
+  {
+    "id": 160,
+    "identifier_type": "Passport",
+    "language": "Roman_Urdu",
+    "disclosure_condition": "question",
+    "surface_representation": "none",
+    "text": "Mujhe apna passport number kahan se mil sakta hai?",
+    "expected": "NO"
+  },
+  {
+    "id": 149,
+    "identifier_type": "Passport",
+    "language": "Roman_Urdu",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "standard",
+    "text": "Yeh mera passport number hai: P12345678.",
+    "expected": "YES"
+  },
+  {
+    "id": 139,
+    "identifier_type": "Passport",
+    "language": "Urdu",
+    "disclosure_condition": "administrative",
+    "surface_representation": "none",
+    "text": "درخواست کے لیے پاسپورٹ نمبر درکار ہے۔",
+    "expected": "NO"
+  },
+  {
+    "id": 185,
+    "identifier_type": "Passport",
+    "language": "Code_switch",
+    "disclosure_condition": "question",
+    "surface_representation": "none",
+    "text": "Main apna passport number kaise check kar sakta hoon?",
+    "expected": "NO"
+  },
+  {
+    "id": 162,
+    "identifier_type": "Passport",
+    "language": "Roman_Urdu",
+    "disclosure_condition": "question",
+    "surface_representation": "none",
+    "text": "Kya aap mujhe apna passport number dhoondne mein madad kar sakte hain?",
+    "expected": "NO"
+  },
+  {
+    "id": 270,
+    "identifier_type": "Hajj_wristband",
+    "language": "Code_switch",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "spaced",
+    "text": "Yeh mera حج wristband number hai: HB 1234 5678.",
+    "expected": "YES"
+  },
+  {
+    "id": 232,
+    "identifier_type": "Hajj_wristband",
+    "language": "Urdu",
+    "disclosure_condition": "question",
+    "surface_representation": "none",
+    "text": "مجھے اپنا حج کلائی بینڈ نمبر کہاں سے مل سکتا ہے؟",
+    "expected": "NO"
+  },
+  {
+    "id": 11,
+    "identifier_type": "ID_card",
+    "language": "English",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "hyphenated",
+    "text": "Please record my identity number as 1234-5678-9012.",
+    "expected": "YES"
+  },
+  {
+    "id": 73,
+    "identifier_type": "ID_card",
+    "language": "Code_switch",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "standard",
+    "text": "Mera شناختی card number 1234-5678901-2 hai.",
+    "expected": "YES"
+  },
+  {
+    "id": 243,
+    "identifier_type": "Hajj_wristband",
+    "language": "Roman_Urdu",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "hyphenated",
+    "text": "Mera Hajj wristband number HB-1234-5678 hai.",
+    "expected": "YES"
+  },
+  {
+    "id": 8,
+    "identifier_type": "ID_card",
+    "language": "English",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "embedded",
+    "text": "Here is my identity number: ID:1234/5678901/2.",
+    "expected": "YES"
+  },
+  {
+    "id": 31,
+    "identifier_type": "ID_card",
+    "language": "Urdu",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "hyphenated",
+    "text": "یہ میرا شناختی کارڈ نمبر ہے: 1234-5678-9012۔",
+    "expected": "YES"
+  },
+  {
+    "id": 152,
+    "identifier_type": "Passport",
+    "language": "Roman_Urdu",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "embedded",
+    "text": "Yeh mera passport number hai: Passport:P12345678.",
+    "expected": "YES"
+  },
+  {
+    "id": 104,
+    "identifier_type": "Passport",
+    "language": "English",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "embedded",
+    "text": "Here is my passport number: Passport:P12345678.",
+    "expected": "YES"
+  },
+  {
+    "id": 47,
+    "identifier_type": "ID_card",
+    "language": "Urdu",
+    "disclosure_condition": "explicit_non_disclosure",
+    "surface_representation": "none",
+    "text": "انہوں نے میرا شناختی کارڈ نمبر مانگا ہے، لیکن میں نے ابھی نمبر فراہم نہیں کیا۔",
+    "expected": "NO"
+  },
+  {
+    "id": 199,
+    "identifier_type": "Hajj_wristband",
+    "language": "English",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "hyphenated",
+    "text": "Here is my Hajj wristband number: HB-1234-5678.",
+    "expected": "YES"
+  },
+  {
+    "id": 191,
+    "identifier_type": "Passport",
+    "language": "Code_switch",
+    "disclosure_condition": "explicit_non_disclosure",
+    "surface_representation": "none",
+    "text": "They requested mera passport number, lekin maine abhi number provide nahi kiya.",
+    "expected": "NO"
+  },
+  {
+    "id": 225,
+    "identifier_type": "Hajj_wristband",
+    "language": "Urdu",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "standard",
+    "text": "براہ کرم میرا حج کلائی بینڈ نمبر HB-12345678 درج کریں۔",
+    "expected": "YES"
+  },
+  {
+    "id": 197,
+    "identifier_type": "Hajj_wristband",
+    "language": "English",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "standard",
+    "text": "Here is my Hajj wristband number: HB-12345678.",
+    "expected": "YES"
+  },
+  {
+    "id": 77,
+    "identifier_type": "ID_card",
+    "language": "Code_switch",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "standard",
+    "text": "Yeh mera شناختی card number hai: 1234-5678901-2.",
+    "expected": "YES"
+  },
+  {
+    "id": 132,
+    "identifier_type": "Passport",
+    "language": "Urdu",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "embedded",
+    "text": "براہ کرم میرا پاسپورٹ نمبر Passport:P12345678 درج کریں۔",
+    "expected": "YES"
+  },
+  {
+    "id": 157,
+    "identifier_type": "Passport",
+    "language": "Roman_Urdu",
+    "disclosure_condition": "mention_only",
+    "surface_representation": "none",
+    "text": "Main apna passport number bhool gaya hoon.",
+    "expected": "NO"
+  },
+  {
+    "id": 100,
+    "identifier_type": "Passport",
+    "language": "English",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "embedded",
+    "text": "My passport number is Passport:P12345678.",
+    "expected": "YES"
+  },
+  {
+    "id": 194,
+    "identifier_type": "Hajj_wristband",
+    "language": "English",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "spaced",
+    "text": "My Hajj wristband number is HB 1234 5678.",
+    "expected": "YES"
+  },
+  {
+    "id": 223,
+    "identifier_type": "Hajj_wristband",
+    "language": "Urdu",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "hyphenated",
+    "text": "یہ میرا حج کلائی بینڈ نمبر ہے: HB-1234-5678۔",
+    "expected": "YES"
+  },
+  {
+    "id": 147,
+    "identifier_type": "Passport",
+    "language": "Roman_Urdu",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "hyphenated",
+    "text": "Mera passport number P-1234-5678 hai.",
+    "expected": "YES"
+  },
+  {
+    "id": 257,
+    "identifier_type": "Hajj_wristband",
+    "language": "Roman_Urdu",
+    "disclosure_condition": "question",
+    "surface_representation": "none",
+    "text": "Main apna Hajj wristband number kaise check kar sakta hoon?",
+    "expected": "NO"
+  },
+  {
+    "id": 20,
+    "identifier_type": "ID_card",
+    "language": "English",
+    "disclosure_condition": "administrative",
+    "surface_representation": "none",
+    "text": "The form asks for a identity number.",
+    "expected": "NO"
+  },
+  {
+    "id": 220,
+    "identifier_type": "Hajj_wristband",
+    "language": "Urdu",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "embedded",
+    "text": "میرا حج کلائی بینڈ نمبر HB:12345678 ہے۔",
+    "expected": "YES"
+  },
+  {
+    "id": 78,
+    "identifier_type": "ID_card",
+    "language": "Code_switch",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "spaced",
+    "text": "Yeh mera شناختی card number hai: 1234 5678901 2.",
+    "expected": "YES"
+  },
+  {
+    "id": 167,
+    "identifier_type": "Passport",
+    "language": "Roman_Urdu",
+    "disclosure_condition": "explicit_non_disclosure",
+    "surface_representation": "none",
+    "text": "Unhon ne mera passport number manga hai, lekin maine abhi number provide nahi kiya.",
+    "expected": "NO"
+  },
+  {
+    "id": 265,
+    "identifier_type": "Hajj_wristband",
+    "language": "Code_switch",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "standard",
+    "text": "Mera حج wristband number HB-12345678 hai.",
+    "expected": "YES"
+  },
+  {
+    "id": 108,
+    "identifier_type": "Passport",
+    "language": "English",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "embedded",
+    "text": "Please record my passport number as Passport:P12345678.",
+    "expected": "YES"
+  },
+  {
+    "id": 39,
+    "identifier_type": "ID_card",
+    "language": "Urdu",
+    "disclosure_condition": "mention_only",
+    "surface_representation": "none",
+    "text": "مجھے اپنا شناختی کارڈ نمبر یاد نہیں ہے۔",
+    "expected": "NO"
+  },
+  {
+    "id": 178,
+    "identifier_type": "Passport",
+    "language": "Code_switch",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "spaced",
+    "text": "Please mera passport number P 1234 5678 record kar dein.",
+    "expected": "YES"
+  },
+  {
+    "id": 135,
+    "identifier_type": "Passport",
+    "language": "Urdu",
+    "disclosure_condition": "mention_only",
+    "surface_representation": "none",
+    "text": "مجھے اپنا پاسپورٹ نمبر یاد نہیں ہے۔",
+    "expected": "NO"
+  },
+  {
+    "id": 28,
+    "identifier_type": "ID_card",
+    "language": "Urdu",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "embedded",
+    "text": "میرا شناختی کارڈ نمبر ID:1234/5678901/2 ہے۔",
+    "expected": "YES"
+  },
+  {
+    "id": 46,
+    "identifier_type": "ID_card",
+    "language": "Urdu",
+    "disclosure_condition": "explicit_non_disclosure",
+    "surface_representation": "none",
+    "text": "فارم میں شناختی کارڈ نمبر مانگا گیا ہے، لیکن میں نے ابھی یہ فراہم نہیں کیا۔",
+    "expected": "NO"
+  },
+  {
+    "id": 129,
+    "identifier_type": "Passport",
+    "language": "Urdu",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "standard",
+    "text": "براہ کرم میرا پاسپورٹ نمبر P12345678 درج کریں۔",
+    "expected": "YES"
+  },
+  {
+    "id": 273,
+    "identifier_type": "Hajj_wristband",
+    "language": "Code_switch",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "standard",
+    "text": "Please mera حج wristband number HB-12345678 record kar dein.",
+    "expected": "YES"
+  },
+  {
+    "id": 1,
+    "identifier_type": "ID_card",
+    "language": "English",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "standard",
+    "text": "My identity number is 1234-5678901-2.",
+    "expected": "YES"
+  },
+  {
+    "id": 253,
+    "identifier_type": "Hajj_wristband",
+    "language": "Roman_Urdu",
+    "disclosure_condition": "mention_only",
+    "surface_representation": "none",
+    "text": "Main apna Hajj wristband number bhool gaya hoon.",
+    "expected": "NO"
+  },
+  {
+    "id": 151,
+    "identifier_type": "Passport",
+    "language": "Roman_Urdu",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "hyphenated",
+    "text": "Yeh mera passport number hai: P-1234-5678.",
+    "expected": "YES"
+  },
+  {
+    "id": 275,
+    "identifier_type": "Hajj_wristband",
+    "language": "Code_switch",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "hyphenated",
+    "text": "Please mera حج wristband number HB-1234-5678 record kar dein.",
+    "expected": "YES"
+  },
+  {
+    "id": 239,
+    "identifier_type": "Hajj_wristband",
+    "language": "Urdu",
+    "disclosure_condition": "explicit_non_disclosure",
+    "surface_representation": "none",
+    "text": "انہوں نے میرا حج کلائی بینڈ نمبر مانگا ہے، لیکن میں نے ابھی نمبر فراہم نہیں کیا۔",
+    "expected": "NO"
+  },
+  {
+    "id": 153,
+    "identifier_type": "Passport",
+    "language": "Roman_Urdu",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "standard",
+    "text": "Barah-e-karam mera passport number P12345678 darj karein.",
+    "expected": "YES"
+  },
+  {
+    "id": 88,
+    "identifier_type": "ID_card",
+    "language": "Code_switch",
+    "disclosure_condition": "question",
+    "surface_representation": "none",
+    "text": "Mujhe apna شناختی card number kahan se mil sakta hai?",
+    "expected": "NO"
+  },
+  {
+    "id": 182,
+    "identifier_type": "Passport",
+    "language": "Code_switch",
+    "disclosure_condition": "mention_only",
+    "surface_representation": "none",
+    "text": "Mujhe apna passport number find karna hai.",
+    "expected": "NO"
+  },
+  {
+    "id": 205,
+    "identifier_type": "Hajj_wristband",
+    "language": "English",
+    "disclosure_condition": "mention_only",
+    "surface_representation": "none",
+    "text": "I forgot my Hajj wristband number.",
+    "expected": "NO"
+  },
+  {
+    "id": 30,
+    "identifier_type": "ID_card",
+    "language": "Urdu",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "spaced",
+    "text": "یہ میرا شناختی کارڈ نمبر ہے: 1234 5678901 2۔",
+    "expected": "YES"
+  },
+  {
+    "id": 3,
+    "identifier_type": "ID_card",
+    "language": "English",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "hyphenated",
+    "text": "My identity number is 1234-5678-9012.",
+    "expected": "YES"
+  },
+  {
+    "id": 240,
+    "identifier_type": "Hajj_wristband",
+    "language": "Urdu",
+    "disclosure_condition": "explicit_non_disclosure",
+    "surface_representation": "none",
+    "text": "درخواست کے لیے حج کلائی بینڈ نمبر درکار ہے، لیکن میں نے اپنا نمبر درج نہیں کیا۔",
+    "expected": "NO"
+  },
+  {
+    "id": 65,
+    "identifier_type": "ID_card",
+    "language": "Roman_Urdu",
+    "disclosure_condition": "question",
+    "surface_representation": "none",
+    "text": "Main apna shanakhti card number kaise check kar sakta hoon?",
+    "expected": "NO"
+  },
+  {
+    "id": 136,
+    "identifier_type": "Passport",
+    "language": "Urdu",
+    "disclosure_condition": "question",
+    "surface_representation": "none",
+    "text": "مجھے اپنا پاسپورٹ نمبر کہاں سے مل سکتا ہے؟",
+    "expected": "NO"
+  },
+  {
+    "id": 274,
+    "identifier_type": "Hajj_wristband",
+    "language": "Code_switch",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "spaced",
+    "text": "Please mera حج wristband number HB 1234 5678 record kar dein.",
+    "expected": "YES"
+  },
+  {
+    "id": 256,
+    "identifier_type": "Hajj_wristband",
+    "language": "Roman_Urdu",
+    "disclosure_condition": "question",
+    "surface_representation": "none",
+    "text": "Mujhe apna Hajj wristband number kahan se mil sakta hai?",
+    "expected": "NO"
+  },
+  {
+    "id": 99,
+    "identifier_type": "Passport",
+    "language": "English",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "hyphenated",
+    "text": "My passport number is P-1234-5678.",
+    "expected": "YES"
+  },
+  {
+    "id": 268,
+    "identifier_type": "Hajj_wristband",
+    "language": "Code_switch",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "embedded",
+    "text": "Mera حج wristband number HB:12345678 hai.",
+    "expected": "YES"
+  },
+  {
+    "id": 109,
+    "identifier_type": "Passport",
+    "language": "English",
+    "disclosure_condition": "mention_only",
+    "surface_representation": "none",
+    "text": "I forgot my passport number.",
+    "expected": "NO"
+  },
+  {
+    "id": 41,
+    "identifier_type": "ID_card",
+    "language": "Urdu",
+    "disclosure_condition": "question",
+    "surface_representation": "none",
+    "text": "میں اپنا شناختی کارڈ نمبر کیسے چیک کر سکتا ہوں؟",
+    "expected": "NO"
+  },
+  {
+    "id": 40,
+    "identifier_type": "ID_card",
+    "language": "Urdu",
+    "disclosure_condition": "question",
+    "surface_representation": "none",
+    "text": "مجھے اپنا شناختی کارڈ نمبر کہاں سے مل سکتا ہے؟",
+    "expected": "NO"
+  },
+  {
+    "id": 29,
+    "identifier_type": "ID_card",
+    "language": "Urdu",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "standard",
+    "text": "یہ میرا شناختی کارڈ نمبر ہے: 1234-5678901-2۔",
+    "expected": "YES"
+  },
+  {
+    "id": 287,
+    "identifier_type": "Hajj_wristband",
+    "language": "Code_switch",
+    "disclosure_condition": "explicit_non_disclosure",
+    "surface_representation": "none",
+    "text": "They requested mera حج wristband number, lekin maine abhi number provide nahi kiya.",
+    "expected": "NO"
+  },
+  {
+    "id": 24,
+    "identifier_type": "ID_card",
+    "language": "English",
+    "disclosure_condition": "explicit_non_disclosure",
+    "surface_representation": "none",
+    "text": "The application requires a identity number, but I have not given the number.",
+    "expected": "NO"
+  },
+  {
+    "id": 127,
+    "identifier_type": "Passport",
+    "language": "Urdu",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "hyphenated",
+    "text": "یہ میرا پاسپورٹ نمبر ہے: P-1234-5678۔",
+    "expected": "YES"
+  },
+  {
+    "id": 131,
+    "identifier_type": "Passport",
+    "language": "Urdu",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "hyphenated",
+    "text": "براہ کرم میرا پاسپورٹ نمبر P-1234-5678 درج کریں۔",
+    "expected": "YES"
+  },
+  {
+    "id": 169,
+    "identifier_type": "Passport",
+    "language": "Code_switch",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "standard",
+    "text": "Mera passport number P12345678 hai.",
+    "expected": "YES"
+  },
+  {
+    "id": 190,
+    "identifier_type": "Passport",
+    "language": "Code_switch",
+    "disclosure_condition": "explicit_non_disclosure",
+    "surface_representation": "none",
+    "text": "Form mein passport number manga gaya hai, lekin maine abhi number provide nahi kiya.",
+    "expected": "NO"
+  },
+  {
+    "id": 233,
+    "identifier_type": "Hajj_wristband",
+    "language": "Urdu",
+    "disclosure_condition": "question",
+    "surface_representation": "none",
+    "text": "میں اپنا حج کلائی بینڈ نمبر کیسے چیک کر سکتا ہوں؟",
+    "expected": "NO"
+  },
+  {
+    "id": 183,
+    "identifier_type": "Passport",
+    "language": "Code_switch",
+    "disclosure_condition": "mention_only",
+    "surface_representation": "none",
+    "text": "Mujhe apna passport number yaad nahi hai.",
+    "expected": "NO"
+  },
+  {
+    "id": 193,
+    "identifier_type": "Hajj_wristband",
+    "language": "English",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "standard",
+    "text": "My Hajj wristband number is HB-12345678.",
+    "expected": "YES"
+  },
+  {
+    "id": 110,
+    "identifier_type": "Passport",
+    "language": "English",
+    "disclosure_condition": "mention_only",
+    "surface_representation": "none",
+    "text": "I need to find my passport number.",
+    "expected": "NO"
+  },
+  {
+    "id": 150,
+    "identifier_type": "Passport",
+    "language": "Roman_Urdu",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "spaced",
+    "text": "Yeh mera passport number hai: P 1234 5678.",
+    "expected": "YES"
+  },
+  {
+    "id": 235,
+    "identifier_type": "Hajj_wristband",
+    "language": "Urdu",
+    "disclosure_condition": "administrative",
+    "surface_representation": "none",
+    "text": "درخواست کے لیے حج کلائی بینڈ نمبر درکار ہے۔",
+    "expected": "NO"
+  },
+  {
+    "id": 245,
+    "identifier_type": "Hajj_wristband",
+    "language": "Roman_Urdu",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "standard",
+    "text": "Yeh mera Hajj wristband number hai: HB-12345678.",
+    "expected": "YES"
+  },
+  {
+    "id": 144,
+    "identifier_type": "Passport",
+    "language": "Urdu",
+    "disclosure_condition": "explicit_non_disclosure",
+    "surface_representation": "none",
+    "text": "درخواست کے لیے پاسپورٹ نمبر درکار ہے، لیکن میں نے اپنا نمبر درج نہیں کیا۔",
+    "expected": "NO"
+  },
+  {
+    "id": 64,
+    "identifier_type": "ID_card",
+    "language": "Roman_Urdu",
+    "disclosure_condition": "question",
+    "surface_representation": "none",
+    "text": "Mujhe apna shanakhti card number kahan se mil sakta hai?",
+    "expected": "NO"
+  },
+  {
+    "id": 36,
+    "identifier_type": "ID_card",
+    "language": "Urdu",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "embedded",
+    "text": "براہ کرم میرا شناختی کارڈ نمبر ID:1234/5678901/2 درج کریں۔",
+    "expected": "YES"
+  },
+  {
+    "id": 250,
+    "identifier_type": "Hajj_wristband",
+    "language": "Roman_Urdu",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "spaced",
+    "text": "Barah-e-karam mera Hajj wristband number HB 1234 5678 darj karein.",
+    "expected": "YES"
+  },
+  {
+    "id": 37,
+    "identifier_type": "ID_card",
+    "language": "Urdu",
+    "disclosure_condition": "mention_only",
+    "surface_representation": "none",
+    "text": "میں اپنا شناختی کارڈ نمبر بھول گیا ہوں۔",
+    "expected": "NO"
+  },
+  {
+    "id": 246,
+    "identifier_type": "Hajj_wristband",
+    "language": "Roman_Urdu",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "spaced",
+    "text": "Yeh mera Hajj wristband number hai: HB 1234 5678.",
+    "expected": "YES"
+  },
+  {
+    "id": 165,
+    "identifier_type": "Passport",
+    "language": "Roman_Urdu",
+    "disclosure_condition": "administrative",
+    "surface_representation": "none",
+    "text": "Registration ke liye passport number zaroori hai.",
+    "expected": "NO"
+  },
+  {
+    "id": 271,
+    "identifier_type": "Hajj_wristband",
+    "language": "Code_switch",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "hyphenated",
+    "text": "Yeh mera حج wristband number hai: HB-1234-5678.",
+    "expected": "YES"
+  },
+  {
+    "id": 128,
+    "identifier_type": "Passport",
+    "language": "Urdu",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "embedded",
+    "text": "یہ میرا پاسپورٹ نمبر ہے: Passport:P12345678۔",
+    "expected": "YES"
+  },
+  {
+    "id": 168,
+    "identifier_type": "Passport",
+    "language": "Roman_Urdu",
+    "disclosure_condition": "explicit_non_disclosure",
+    "surface_representation": "none",
+    "text": "Darkhwast ke liye passport number darkar hai, lekin maine apna number darj nahi kiya.",
+    "expected": "NO"
+  },
+  {
+    "id": 249,
+    "identifier_type": "Hajj_wristband",
+    "language": "Roman_Urdu",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "standard",
+    "text": "Barah-e-karam mera Hajj wristband number HB-12345678 darj karein.",
+    "expected": "YES"
+  },
+  {
+    "id": 184,
+    "identifier_type": "Passport",
+    "language": "Code_switch",
+    "disclosure_condition": "question",
+    "surface_representation": "none",
+    "text": "Mujhe apna passport number kahan se mil sakta hai?",
+    "expected": "NO"
+  },
+  {
+    "id": 146,
+    "identifier_type": "Passport",
+    "language": "Roman_Urdu",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "spaced",
+    "text": "Mera passport number P 1234 5678 hai.",
+    "expected": "YES"
+  },
+  {
+    "id": 55,
+    "identifier_type": "ID_card",
+    "language": "Roman_Urdu",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "hyphenated",
+    "text": "Yeh mera shanakhti card number hai: 1234-5678-9012.",
+    "expected": "YES"
+  },
+  {
+    "id": 278,
+    "identifier_type": "Hajj_wristband",
+    "language": "Code_switch",
+    "disclosure_condition": "mention_only",
+    "surface_representation": "none",
+    "text": "Mujhe apna حج wristband number find karna hai.",
+    "expected": "NO"
+  },
+  {
+    "id": 208,
+    "identifier_type": "Hajj_wristband",
+    "language": "English",
+    "disclosure_condition": "question",
+    "surface_representation": "none",
+    "text": "Where can I find my Hajj wristband number?",
+    "expected": "NO"
+  },
+  {
+    "id": 103,
+    "identifier_type": "Passport",
+    "language": "English",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "hyphenated",
+    "text": "Here is my passport number: P-1234-5678.",
+    "expected": "YES"
+  },
+  {
+    "id": 81,
+    "identifier_type": "ID_card",
+    "language": "Code_switch",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "standard",
+    "text": "Please mera شناختی card number 1234-5678901-2 record kar dein.",
+    "expected": "YES"
+  },
+  {
+    "id": 9,
+    "identifier_type": "ID_card",
+    "language": "English",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "standard",
+    "text": "Please record my identity number as 1234-5678901-2.",
+    "expected": "YES"
+  },
+  {
+    "id": 226,
+    "identifier_type": "Hajj_wristband",
+    "language": "Urdu",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "spaced",
+    "text": "براہ کرم میرا حج کلائی بینڈ نمبر HB 1234 5678 درج کریں۔",
+    "expected": "YES"
+  },
+  {
+    "id": 15,
+    "identifier_type": "ID_card",
+    "language": "English",
+    "disclosure_condition": "mention_only",
+    "surface_representation": "none",
+    "text": "I do not remember my identity number.",
+    "expected": "NO"
+  },
+  {
+    "id": 84,
+    "identifier_type": "ID_card",
+    "language": "Code_switch",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "embedded",
+    "text": "Please mera شناختی card number ID:1234/5678901/2 record kar dein.",
+    "expected": "YES"
+  },
+  {
+    "id": 176,
+    "identifier_type": "Passport",
+    "language": "Code_switch",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "embedded",
+    "text": "Yeh mera passport number hai: Passport:P12345678.",
+    "expected": "YES"
+  },
+  {
+    "id": 57,
+    "identifier_type": "ID_card",
+    "language": "Roman_Urdu",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "standard",
+    "text": "Barah-e-karam mera shanakhti card number 1234-5678901-2 darj karein.",
+    "expected": "YES"
+  },
+  {
+    "id": 262,
+    "identifier_type": "Hajj_wristband",
+    "language": "Roman_Urdu",
+    "disclosure_condition": "explicit_non_disclosure",
+    "surface_representation": "none",
+    "text": "Form mein Hajj wristband number manga gaya hai, lekin maine abhi yeh provide nahi kiya.",
+    "expected": "NO"
+  },
+  {
+    "id": 177,
+    "identifier_type": "Passport",
+    "language": "Code_switch",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "standard",
+    "text": "Please mera passport number P12345678 record kar dein.",
+    "expected": "YES"
+  },
+  {
+    "id": 164,
+    "identifier_type": "Passport",
+    "language": "Roman_Urdu",
+    "disclosure_condition": "administrative",
+    "surface_representation": "none",
+    "text": "Form mein passport number manga gaya hai.",
+    "expected": "NO"
+  },
+  {
+    "id": 70,
+    "identifier_type": "ID_card",
+    "language": "Roman_Urdu",
+    "disclosure_condition": "explicit_non_disclosure",
+    "surface_representation": "none",
+    "text": "Form mein shanakhti card number manga gaya hai, lekin maine abhi yeh provide nahi kiya.",
+    "expected": "NO"
+  },
+  {
+    "id": 222,
+    "identifier_type": "Hajj_wristband",
+    "language": "Urdu",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "spaced",
+    "text": "یہ میرا حج کلائی بینڈ نمبر ہے: HB 1234 5678۔",
+    "expected": "YES"
+  },
+  {
+    "id": 119,
+    "identifier_type": "Passport",
+    "language": "English",
+    "disclosure_condition": "explicit_non_disclosure",
+    "surface_representation": "none",
+    "text": "They requested my passport number, but I have not provided it.",
+    "expected": "NO"
+  },
+  {
+    "id": 238,
+    "identifier_type": "Hajj_wristband",
+    "language": "Urdu",
+    "disclosure_condition": "explicit_non_disclosure",
+    "surface_representation": "none",
+    "text": "فارم میں حج کلائی بینڈ نمبر مانگا گیا ہے، لیکن میں نے ابھی یہ فراہم نہیں کیا۔",
+    "expected": "NO"
+  },
+  {
+    "id": 63,
+    "identifier_type": "ID_card",
+    "language": "Roman_Urdu",
+    "disclosure_condition": "mention_only",
+    "surface_representation": "none",
+    "text": "Mujhe apna shanakhti card number yaad nahi hai.",
+    "expected": "NO"
+  },
+  {
+    "id": 247,
+    "identifier_type": "Hajj_wristband",
+    "language": "Roman_Urdu",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "hyphenated",
+    "text": "Yeh mera Hajj wristband number hai: HB-1234-5678.",
+    "expected": "YES"
+  },
+  {
+    "id": 137,
+    "identifier_type": "Passport",
+    "language": "Urdu",
+    "disclosure_condition": "question",
+    "surface_representation": "none",
+    "text": "میں اپنا پاسپورٹ نمبر کیسے چیک کر سکتا ہوں؟",
+    "expected": "NO"
+  },
+  {
+    "id": 44,
+    "identifier_type": "ID_card",
+    "language": "Urdu",
+    "disclosure_condition": "administrative",
+    "surface_representation": "none",
+    "text": "فارم میں شناختی کارڈ نمبر مانگا گیا ہے۔",
+    "expected": "NO"
+  },
+  {
+    "id": 216,
+    "identifier_type": "Hajj_wristband",
+    "language": "English",
+    "disclosure_condition": "explicit_non_disclosure",
+    "surface_representation": "none",
+    "text": "The application requires a Hajj wristband number, but I have not given the number.",
+    "expected": "NO"
+  },
+  {
+    "id": 156,
+    "identifier_type": "Passport",
+    "language": "Roman_Urdu",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "embedded",
+    "text": "Barah-e-karam mera passport number Passport:P12345678 darj karein.",
+    "expected": "YES"
+  },
+  {
+    "id": 19,
+    "identifier_type": "ID_card",
+    "language": "English",
+    "disclosure_condition": "administrative",
+    "surface_representation": "none",
+    "text": "The application requires a identity number.",
+    "expected": "NO"
+  },
+  {
+    "id": 166,
+    "identifier_type": "Passport",
+    "language": "Roman_Urdu",
+    "disclosure_condition": "explicit_non_disclosure",
+    "surface_representation": "none",
+    "text": "Form mein passport number manga gaya hai, lekin maine abhi yeh provide nahi kiya.",
+    "expected": "NO"
+  },
+  {
+    "id": 263,
+    "identifier_type": "Hajj_wristband",
+    "language": "Roman_Urdu",
+    "disclosure_condition": "explicit_non_disclosure",
+    "surface_representation": "none",
+    "text": "Unhon ne mera Hajj wristband number manga hai, lekin maine abhi number provide nahi kiya.",
+    "expected": "NO"
+  },
+  {
+    "id": 180,
+    "identifier_type": "Passport",
+    "language": "Code_switch",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "embedded",
+    "text": "Please mera passport number Passport:P12345678 record kar dein.",
+    "expected": "YES"
+  },
+  {
+    "id": 69,
+    "identifier_type": "ID_card",
+    "language": "Roman_Urdu",
+    "disclosure_condition": "administrative",
+    "surface_representation": "none",
+    "text": "Registration ke liye shanakhti card number zaroori hai.",
+    "expected": "NO"
+  },
+  {
+    "id": 172,
+    "identifier_type": "Passport",
+    "language": "Code_switch",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "embedded",
+    "text": "Mera passport number Passport:P12345678 hai.",
+    "expected": "YES"
+  },
+  {
+    "id": 54,
+    "identifier_type": "ID_card",
+    "language": "Roman_Urdu",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "spaced",
+    "text": "Yeh mera shanakhti card number hai: 1234 5678901 2.",
+    "expected": "YES"
+  },
+  {
+    "id": 91,
+    "identifier_type": "ID_card",
+    "language": "Code_switch",
+    "disclosure_condition": "administrative",
+    "surface_representation": "none",
+    "text": "Application ke liye شناختی card number required hai.",
+    "expected": "NO"
+  },
+  {
+    "id": 95,
+    "identifier_type": "ID_card",
+    "language": "Code_switch",
+    "disclosure_condition": "explicit_non_disclosure",
+    "surface_representation": "none",
+    "text": "They requested mera شناختی card number, lekin maine abhi number provide nahi kiya.",
+    "expected": "NO"
+  },
+  {
+    "id": 42,
+    "identifier_type": "ID_card",
+    "language": "Urdu",
+    "disclosure_condition": "question",
+    "surface_representation": "none",
+    "text": "کیا آپ مجھے اپنا شناختی کارڈ نمبر تلاش کرنے میں مدد کر سکتے ہیں؟",
+    "expected": "NO"
+  },
+  {
+    "id": 94,
+    "identifier_type": "ID_card",
+    "language": "Code_switch",
+    "disclosure_condition": "explicit_non_disclosure",
+    "surface_representation": "none",
+    "text": "Form mein شناختی card number manga gaya hai, lekin maine abhi number provide nahi kiya.",
+    "expected": "NO"
+  },
+  {
+    "id": 214,
+    "identifier_type": "Hajj_wristband",
+    "language": "English",
+    "disclosure_condition": "explicit_non_disclosure",
+    "surface_representation": "none",
+    "text": "The form asks for a Hajj wristband number, but I have not entered it.",
+    "expected": "NO"
+  },
+  {
+    "id": 163,
+    "identifier_type": "Passport",
+    "language": "Roman_Urdu",
+    "disclosure_condition": "administrative",
+    "surface_representation": "none",
+    "text": "Darkhwast ke liye passport number darkar hai.",
+    "expected": "NO"
+  },
+  {
+    "id": 117,
+    "identifier_type": "Passport",
+    "language": "English",
+    "disclosure_condition": "administrative",
+    "surface_representation": "none",
+    "text": "A passport number is required for registration.",
+    "expected": "NO"
+  },
+  {
+    "id": 283,
+    "identifier_type": "Hajj_wristband",
+    "language": "Code_switch",
+    "disclosure_condition": "administrative",
+    "surface_representation": "none",
+    "text": "Application ke liye حج wristband number required hai.",
+    "expected": "NO"
+  },
+  {
+    "id": 98,
+    "identifier_type": "Passport",
+    "language": "English",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "spaced",
+    "text": "My passport number is P 1234 5678.",
+    "expected": "YES"
+  },
+  {
+    "id": 26,
+    "identifier_type": "ID_card",
+    "language": "Urdu",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "spaced",
+    "text": "میرا شناختی کارڈ نمبر 1234 5678901 2 ہے۔",
+    "expected": "YES"
+  },
+  {
+    "id": 60,
+    "identifier_type": "ID_card",
+    "language": "Roman_Urdu",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "embedded",
+    "text": "Barah-e-karam mera shanakhti card number ID:1234/5678901/2 darj karein.",
+    "expected": "YES"
+  },
+  {
+    "id": 219,
+    "identifier_type": "Hajj_wristband",
+    "language": "Urdu",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "hyphenated",
+    "text": "میرا حج کلائی بینڈ نمبر HB-1234-5678 ہے۔",
+    "expected": "YES"
+  },
+  {
+    "id": 241,
+    "identifier_type": "Hajj_wristband",
+    "language": "Roman_Urdu",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "standard",
+    "text": "Mera Hajj wristband number HB-12345678 hai.",
+    "expected": "YES"
+  },
+  {
+    "id": 75,
+    "identifier_type": "ID_card",
+    "language": "Code_switch",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "hyphenated",
+    "text": "Mera شناختی card number 1234-5678-9012 hai.",
+    "expected": "YES"
+  },
+  {
+    "id": 198,
+    "identifier_type": "Hajj_wristband",
+    "language": "English",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "spaced",
+    "text": "Here is my Hajj wristband number: HB 1234 5678.",
+    "expected": "YES"
+  },
+  {
+    "id": 59,
+    "identifier_type": "ID_card",
+    "language": "Roman_Urdu",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "hyphenated",
+    "text": "Barah-e-karam mera shanakhti card number 1234-5678-9012 darj karein.",
+    "expected": "YES"
+  },
+  {
+    "id": 170,
+    "identifier_type": "Passport",
+    "language": "Code_switch",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "spaced",
+    "text": "Mera passport number P 1234 5678 hai.",
+    "expected": "YES"
+  },
+  {
+    "id": 248,
+    "identifier_type": "Hajj_wristband",
+    "language": "Roman_Urdu",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "embedded",
+    "text": "Yeh mera Hajj wristband number hai: HB:12345678.",
+    "expected": "YES"
+  },
+  {
+    "id": 18,
+    "identifier_type": "ID_card",
+    "language": "English",
+    "disclosure_condition": "question",
+    "surface_representation": "none",
+    "text": "Can you help me find my identity number?",
+    "expected": "NO"
+  },
+  {
+    "id": 181,
+    "identifier_type": "Passport",
+    "language": "Code_switch",
+    "disclosure_condition": "mention_only",
+    "surface_representation": "none",
+    "text": "Main apna passport number bhool gaya hoon.",
+    "expected": "NO"
+  },
+  {
+    "id": 50,
+    "identifier_type": "ID_card",
+    "language": "Roman_Urdu",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "spaced",
+    "text": "Mera shanakhti card number 1234 5678901 2 hai.",
+    "expected": "YES"
+  },
+  {
+    "id": 148,
+    "identifier_type": "Passport",
+    "language": "Roman_Urdu",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "embedded",
+    "text": "Mera passport number Passport:P12345678 hai.",
+    "expected": "YES"
+  },
+  {
+    "id": 93,
+    "identifier_type": "ID_card",
+    "language": "Code_switch",
+    "disclosure_condition": "administrative",
+    "surface_representation": "none",
+    "text": "Registration ke liye شناختی card number required hai.",
+    "expected": "NO"
+  },
+  {
+    "id": 221,
+    "identifier_type": "Hajj_wristband",
+    "language": "Urdu",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "standard",
+    "text": "یہ میرا حج کلائی بینڈ نمبر ہے: HB-12345678۔",
+    "expected": "YES"
+  },
+  {
+    "id": 227,
+    "identifier_type": "Hajj_wristband",
+    "language": "Urdu",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "hyphenated",
+    "text": "براہ کرم میرا حج کلائی بینڈ نمبر HB-1234-5678 درج کریں۔",
+    "expected": "YES"
+  },
+  {
+    "id": 159,
+    "identifier_type": "Passport",
+    "language": "Roman_Urdu",
+    "disclosure_condition": "mention_only",
+    "surface_representation": "none",
+    "text": "Mujhe apna passport number yaad nahi hai.",
+    "expected": "NO"
+  },
+  {
+    "id": 161,
+    "identifier_type": "Passport",
+    "language": "Roman_Urdu",
+    "disclosure_condition": "question",
+    "surface_representation": "none",
+    "text": "Main apna passport number kaise check kar sakta hoon?",
+    "expected": "NO"
+  },
+  {
+    "id": 213,
+    "identifier_type": "Hajj_wristband",
+    "language": "English",
+    "disclosure_condition": "administrative",
+    "surface_representation": "none",
+    "text": "A Hajj wristband number is required for registration.",
+    "expected": "NO"
+  },
+  {
+    "id": 76,
+    "identifier_type": "ID_card",
+    "language": "Code_switch",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "embedded",
+    "text": "Mera شناختی card number ID:1234/5678901/2 hai.",
+    "expected": "YES"
+  },
+  {
+    "id": 142,
+    "identifier_type": "Passport",
+    "language": "Urdu",
+    "disclosure_condition": "explicit_non_disclosure",
+    "surface_representation": "none",
+    "text": "فارم میں پاسپورٹ نمبر مانگا گیا ہے، لیکن میں نے ابھی یہ فراہم نہیں کیا۔",
+    "expected": "NO"
+  },
+  {
+    "id": 21,
+    "identifier_type": "ID_card",
+    "language": "English",
+    "disclosure_condition": "administrative",
+    "surface_representation": "none",
+    "text": "A identity number is required for registration.",
+    "expected": "NO"
+  },
+  {
+    "id": 97,
+    "identifier_type": "Passport",
+    "language": "English",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "standard",
+    "text": "My passport number is P12345678.",
+    "expected": "YES"
+  },
+  {
+    "id": 237,
+    "identifier_type": "Hajj_wristband",
+    "language": "Urdu",
+    "disclosure_condition": "administrative",
+    "surface_representation": "none",
+    "text": "رجسٹریشن کے لیے حج کلائی بینڈ نمبر ضروری ہے۔",
+    "expected": "NO"
+  },
+  {
+    "id": 32,
+    "identifier_type": "ID_card",
+    "language": "Urdu",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "embedded",
+    "text": "یہ میرا شناختی کارڈ نمبر ہے: ID:1234/5678901/2۔",
+    "expected": "YES"
+  },
+  {
+    "id": 138,
+    "identifier_type": "Passport",
+    "language": "Urdu",
+    "disclosure_condition": "question",
+    "surface_representation": "none",
+    "text": "کیا آپ مجھے اپنا پاسپورٹ نمبر تلاش کرنے میں مدد کر سکتے ہیں؟",
+    "expected": "NO"
+  },
+  {
+    "id": 118,
+    "identifier_type": "Passport",
+    "language": "English",
+    "disclosure_condition": "explicit_non_disclosure",
+    "surface_representation": "none",
+    "text": "The form asks for a passport number, but I have not entered it.",
+    "expected": "NO"
+  },
+  {
+    "id": 187,
+    "identifier_type": "Passport",
+    "language": "Code_switch",
+    "disclosure_condition": "administrative",
+    "surface_representation": "none",
+    "text": "Application ke liye passport number required hai.",
+    "expected": "NO"
+  },
+  {
+    "id": 12,
+    "identifier_type": "ID_card",
+    "language": "English",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "embedded",
+    "text": "Please record my identity number as ID:1234/5678901/2.",
+    "expected": "YES"
+  },
+  {
+    "id": 207,
+    "identifier_type": "Hajj_wristband",
+    "language": "English",
+    "disclosure_condition": "mention_only",
+    "surface_representation": "none",
+    "text": "I do not remember my Hajj wristband number.",
+    "expected": "NO"
+  },
+  {
+    "id": 68,
+    "identifier_type": "ID_card",
+    "language": "Roman_Urdu",
+    "disclosure_condition": "administrative",
+    "surface_representation": "none",
+    "text": "Form mein shanakhti card number manga gaya hai.",
+    "expected": "NO"
+  },
+  {
+    "id": 155,
+    "identifier_type": "Passport",
+    "language": "Roman_Urdu",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "hyphenated",
+    "text": "Barah-e-karam mera passport number P-1234-5678 darj karein.",
+    "expected": "YES"
+  },
+  {
+    "id": 89,
+    "identifier_type": "ID_card",
+    "language": "Code_switch",
+    "disclosure_condition": "question",
+    "surface_representation": "none",
+    "text": "Main apna شناختی card number kaise check kar sakta hoon?",
+    "expected": "NO"
+  },
+  {
+    "id": 264,
+    "identifier_type": "Hajj_wristband",
+    "language": "Roman_Urdu",
+    "disclosure_condition": "explicit_non_disclosure",
+    "surface_representation": "none",
+    "text": "Darkhwast ke liye Hajj wristband number darkar hai, lekin maine apna number darj nahi kiya.",
+    "expected": "NO"
+  },
+  {
+    "id": 92,
+    "identifier_type": "ID_card",
+    "language": "Code_switch",
+    "disclosure_condition": "administrative",
+    "surface_representation": "none",
+    "text": "Form mein شناختی card number manga gaya hai.",
+    "expected": "NO"
+  },
+  {
+    "id": 25,
+    "identifier_type": "ID_card",
+    "language": "Urdu",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "standard",
+    "text": "میرا شناختی کارڈ نمبر 1234-5678901-2 ہے۔",
+    "expected": "YES"
+  },
+  {
+    "id": 195,
+    "identifier_type": "Hajj_wristband",
+    "language": "English",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "hyphenated",
+    "text": "My Hajj wristband number is HB-1234-5678.",
+    "expected": "YES"
+  },
+  {
+    "id": 276,
+    "identifier_type": "Hajj_wristband",
+    "language": "Code_switch",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "embedded",
+    "text": "Please mera حج wristband number HB:12345678 record kar dein.",
+    "expected": "YES"
+  },
+  {
+    "id": 282,
+    "identifier_type": "Hajj_wristband",
+    "language": "Code_switch",
+    "disclosure_condition": "question",
+    "surface_representation": "none",
+    "text": "Can you help mujhe apna حج wristband number find karne mein?",
+    "expected": "NO"
+  },
+  {
+    "id": 173,
+    "identifier_type": "Passport",
+    "language": "Code_switch",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "standard",
+    "text": "Yeh mera passport number hai: P12345678.",
+    "expected": "YES"
+  },
+  {
+    "id": 111,
+    "identifier_type": "Passport",
+    "language": "English",
+    "disclosure_condition": "mention_only",
+    "surface_representation": "none",
+    "text": "I do not remember my passport number.",
+    "expected": "NO"
+  },
+  {
+    "id": 80,
+    "identifier_type": "ID_card",
+    "language": "Code_switch",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "embedded",
+    "text": "Yeh mera شناختی card number hai: ID:1234/5678901/2.",
+    "expected": "YES"
+  },
+  {
+    "id": 267,
+    "identifier_type": "Hajj_wristband",
+    "language": "Code_switch",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "hyphenated",
+    "text": "Mera حج wristband number HB-1234-5678 hai.",
+    "expected": "YES"
+  },
+  {
+    "id": 175,
+    "identifier_type": "Passport",
+    "language": "Code_switch",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "hyphenated",
+    "text": "Yeh mera passport number hai: P-1234-5678.",
+    "expected": "YES"
+  },
+  {
+    "id": 279,
+    "identifier_type": "Hajj_wristband",
+    "language": "Code_switch",
+    "disclosure_condition": "mention_only",
+    "surface_representation": "none",
+    "text": "Mujhe apna حج wristband number yaad nahi hai.",
+    "expected": "NO"
+  },
+  {
+    "id": 82,
+    "identifier_type": "ID_card",
+    "language": "Code_switch",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "spaced",
+    "text": "Please mera شناختی card number 1234 5678901 2 record kar dein.",
+    "expected": "YES"
+  },
+  {
+    "id": 4,
+    "identifier_type": "ID_card",
+    "language": "English",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "embedded",
+    "text": "My identity number is ID:1234/5678901/2.",
+    "expected": "YES"
+  },
+  {
+    "id": 143,
+    "identifier_type": "Passport",
+    "language": "Urdu",
+    "disclosure_condition": "explicit_non_disclosure",
+    "surface_representation": "none",
+    "text": "انہوں نے میرا پاسپورٹ نمبر مانگا ہے، لیکن میں نے ابھی نمبر فراہم نہیں کیا۔",
+    "expected": "NO"
+  },
+  {
+    "id": 230,
+    "identifier_type": "Hajj_wristband",
+    "language": "Urdu",
+    "disclosure_condition": "mention_only",
+    "surface_representation": "none",
+    "text": "مجھے اپنا حج کلائی بینڈ نمبر تلاش کرنا ہے۔",
+    "expected": "NO"
+  },
+  {
+    "id": 113,
+    "identifier_type": "Passport",
+    "language": "English",
+    "disclosure_condition": "question",
+    "surface_representation": "none",
+    "text": "How can I check my passport number?",
+    "expected": "NO"
+  },
+  {
+    "id": 215,
+    "identifier_type": "Hajj_wristband",
+    "language": "English",
+    "disclosure_condition": "explicit_non_disclosure",
+    "surface_representation": "none",
+    "text": "They requested my Hajj wristband number, but I have not provided it.",
+    "expected": "NO"
+  },
+  {
+    "id": 102,
+    "identifier_type": "Passport",
+    "language": "English",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "spaced",
+    "text": "Here is my passport number: P 1234 5678.",
+    "expected": "YES"
+  },
+  {
+    "id": 14,
+    "identifier_type": "ID_card",
+    "language": "English",
+    "disclosure_condition": "mention_only",
+    "surface_representation": "none",
+    "text": "I need to find my identity number.",
+    "expected": "NO"
+  },
+  {
+    "id": 259,
+    "identifier_type": "Hajj_wristband",
+    "language": "Roman_Urdu",
+    "disclosure_condition": "administrative",
+    "surface_representation": "none",
+    "text": "Darkhwast ke liye Hajj wristband number darkar hai.",
+    "expected": "NO"
+  },
+  {
+    "id": 120,
+    "identifier_type": "Passport",
+    "language": "English",
+    "disclosure_condition": "explicit_non_disclosure",
+    "surface_representation": "none",
+    "text": "The application requires a passport number, but I have not given the number.",
+    "expected": "NO"
+  },
+  {
+    "id": 112,
+    "identifier_type": "Passport",
+    "language": "English",
+    "disclosure_condition": "question",
+    "surface_representation": "none",
+    "text": "Where can I find my passport number?",
+    "expected": "NO"
+  },
+  {
+    "id": 48,
+    "identifier_type": "ID_card",
+    "language": "Urdu",
+    "disclosure_condition": "explicit_non_disclosure",
+    "surface_representation": "none",
+    "text": "درخواست کے لیے شناختی کارڈ نمبر درکار ہے، لیکن میں نے اپنا نمبر درج نہیں کیا۔",
+    "expected": "NO"
+  },
+  {
+    "id": 16,
+    "identifier_type": "ID_card",
+    "language": "English",
+    "disclosure_condition": "question",
+    "surface_representation": "none",
+    "text": "Where can I find my identity number?",
+    "expected": "NO"
+  },
+  {
+    "id": 17,
+    "identifier_type": "ID_card",
+    "language": "English",
+    "disclosure_condition": "question",
+    "surface_representation": "none",
+    "text": "How can I check my identity number?",
+    "expected": "NO"
+  },
+  {
+    "id": 217,
+    "identifier_type": "Hajj_wristband",
+    "language": "Urdu",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "standard",
+    "text": "میرا حج کلائی بینڈ نمبر HB-12345678 ہے۔",
+    "expected": "YES"
+  },
+  {
+    "id": 45,
+    "identifier_type": "ID_card",
+    "language": "Urdu",
+    "disclosure_condition": "administrative",
+    "surface_representation": "none",
+    "text": "رجسٹریشن کے لیے شناختی کارڈ نمبر ضروری ہے۔",
+    "expected": "NO"
+  },
+  {
+    "id": 280,
+    "identifier_type": "Hajj_wristband",
+    "language": "Code_switch",
+    "disclosure_condition": "question",
+    "surface_representation": "none",
+    "text": "Mujhe apna حج wristband number kahan se mil sakta hai?",
+    "expected": "NO"
+  },
+  {
+    "id": 53,
+    "identifier_type": "ID_card",
+    "language": "Roman_Urdu",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "standard",
+    "text": "Yeh mera shanakhti card number hai: 1234-5678901-2.",
+    "expected": "YES"
+  },
+  {
+    "id": 72,
+    "identifier_type": "ID_card",
+    "language": "Roman_Urdu",
+    "disclosure_condition": "explicit_non_disclosure",
+    "surface_representation": "none",
+    "text": "Darkhwast ke liye shanakhti card number darkar hai, lekin maine apna number darj nahi kiya.",
+    "expected": "NO"
+  },
+  {
+    "id": 115,
+    "identifier_type": "Passport",
+    "language": "English",
+    "disclosure_condition": "administrative",
+    "surface_representation": "none",
+    "text": "The application requires a passport number.",
+    "expected": "NO"
+  },
+  {
+    "id": 126,
+    "identifier_type": "Passport",
+    "language": "Urdu",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "spaced",
+    "text": "یہ میرا پاسپورٹ نمبر ہے: P 1234 5678۔",
+    "expected": "YES"
+  },
+  {
+    "id": 141,
+    "identifier_type": "Passport",
+    "language": "Urdu",
+    "disclosure_condition": "administrative",
+    "surface_representation": "none",
+    "text": "رجسٹریشن کے لیے پاسپورٹ نمبر ضروری ہے۔",
+    "expected": "NO"
+  },
+  {
+    "id": 13,
+    "identifier_type": "ID_card",
+    "language": "English",
+    "disclosure_condition": "mention_only",
+    "surface_representation": "none",
+    "text": "I forgot my identity number.",
+    "expected": "NO"
+  },
+  {
+    "id": 58,
+    "identifier_type": "ID_card",
+    "language": "Roman_Urdu",
+    "disclosure_condition": "actual_disclosure",
+    "surface_representation": "spaced",
+    "text": "Barah-e-karam mera shanakhti card number 1234 5678901 2 darj karein.",
+    "expected": "YES"
+  }
+]

@@ -1,0 +1,962 @@
+[
+  {
+    "id": "case_085",
+    "pair_id": "pair_Code_switch_Passport_explicit_non_disclosure_1",
+    "pair_member": "negative",
+    "language": "Code_switch",
+    "identifier_type": "Passport",
+    "condition": "explicit_non_disclosure",
+    "text": "Unhon ne mera passport number manga hai, lekin maine abhi woh provide nahi kiya.",
+    "expected": "NO"
+  },
+  {
+    "id": "case_060",
+    "pair_id": "pair_Roman_Urdu_Passport_administrative_2",
+    "pair_member": "positive",
+    "language": "Roman_Urdu",
+    "identifier_type": "Passport",
+    "condition": "administrative",
+    "text": "Tasdeeq ke liye mera passport number darkar hai, aur maine P12345678 provide kiya hai.",
+    "expected": "YES"
+  },
+  {
+    "id": "case_063",
+    "pair_id": "pair_Roman_Urdu_Passport_explicit_non_disclosure_2",
+    "pair_member": "negative",
+    "language": "Roman_Urdu",
+    "identifier_type": "Passport",
+    "condition": "explicit_non_disclosure",
+    "text": "Mujh se mera passport number provide karne ko kaha gaya, lekin maine number enter nahi kiya.",
+    "expected": "NO"
+  },
+  {
+    "id": "case_010",
+    "pair_id": "pair_English_Passport_administrative_1",
+    "pair_member": "positive",
+    "language": "English",
+    "identifier_type": "Passport",
+    "condition": "administrative",
+    "text": "The form asks for my passport number, and I entered P12345678.",
+    "expected": "YES"
+  },
+  {
+    "id": "case_034",
+    "pair_id": "pair_Urdu_Passport_administrative_1",
+    "pair_member": "positive",
+    "language": "Urdu",
+    "identifier_type": "Passport",
+    "condition": "administrative",
+    "text": "فارم میں میرا پاسپورٹ نمبر مانگا گیا ہے، اور میں نے P12345678 درج کیا ہے۔",
+    "expected": "YES"
+  },
+  {
+    "id": "case_027",
+    "pair_id": "pair_Urdu_ID_card_administrative_2",
+    "pair_member": "negative",
+    "language": "Urdu",
+    "identifier_type": "ID_card",
+    "condition": "administrative",
+    "text": "تصدیق کے لیے میرا شناختی کارڈ نمبر درکار ہے۔",
+    "expected": "NO"
+  },
+  {
+    "id": "case_002",
+    "pair_id": "pair_English_ID_card_administrative_1",
+    "pair_member": "positive",
+    "language": "English",
+    "identifier_type": "ID_card",
+    "condition": "administrative",
+    "text": "The form asks for my ID card number, and I entered 1234-5678901-2.",
+    "expected": "YES"
+  },
+  {
+    "id": "case_069",
+    "pair_id": "pair_Roman_Urdu_Hajj_wristband_explicit_non_disclosure_1",
+    "pair_member": "negative",
+    "language": "Roman_Urdu",
+    "identifier_type": "Hajj_wristband",
+    "condition": "explicit_non_disclosure",
+    "text": "Unhon ne mera Hajj wristband number manga hai, lekin maine abhi woh provide nahi kiya.",
+    "expected": "NO"
+  },
+  {
+    "id": "case_016",
+    "pair_id": "pair_English_Passport_explicit_non_disclosure_2",
+    "pair_member": "positive",
+    "language": "English",
+    "identifier_type": "Passport",
+    "condition": "explicit_non_disclosure",
+    "text": "I was asked to provide my passport number, and I entered P12345678.",
+    "expected": "YES"
+  },
+  {
+    "id": "case_061",
+    "pair_id": "pair_Roman_Urdu_Passport_explicit_non_disclosure_1",
+    "pair_member": "negative",
+    "language": "Roman_Urdu",
+    "identifier_type": "Passport",
+    "condition": "explicit_non_disclosure",
+    "text": "Unhon ne mera passport number manga hai, lekin maine abhi woh provide nahi kiya.",
+    "expected": "NO"
+  },
+  {
+    "id": "case_064",
+    "pair_id": "pair_Roman_Urdu_Passport_explicit_non_disclosure_2",
+    "pair_member": "positive",
+    "language": "Roman_Urdu",
+    "identifier_type": "Passport",
+    "condition": "explicit_non_disclosure",
+    "text": "Mujh se mera passport number provide karne ko kaha gaya, aur maine P12345678 enter kiya hai.",
+    "expected": "YES"
+  },
+  {
+    "id": "case_011",
+    "pair_id": "pair_English_Passport_administrative_2",
+    "pair_member": "negative",
+    "language": "English",
+    "identifier_type": "Passport",
+    "condition": "administrative",
+    "text": "My passport number is required for verification.",
+    "expected": "NO"
+  },
+  {
+    "id": "case_053",
+    "pair_id": "pair_Roman_Urdu_ID_card_explicit_non_disclosure_1",
+    "pair_member": "negative",
+    "language": "Roman_Urdu",
+    "identifier_type": "ID_card",
+    "condition": "explicit_non_disclosure",
+    "text": "Unhon ne mera CNIC number manga hai, lekin maine abhi woh provide nahi kiya.",
+    "expected": "NO"
+  },
+  {
+    "id": "case_075",
+    "pair_id": "pair_Code_switch_ID_card_administrative_2",
+    "pair_member": "negative",
+    "language": "Code_switch",
+    "identifier_type": "ID_card",
+    "condition": "administrative",
+    "text": "Verification ke liye mera شناختی card number required hai.",
+    "expected": "NO"
+  },
+  {
+    "id": "case_052",
+    "pair_id": "pair_Roman_Urdu_ID_card_administrative_2",
+    "pair_member": "positive",
+    "language": "Roman_Urdu",
+    "identifier_type": "ID_card",
+    "condition": "administrative",
+    "text": "Tasdeeq ke liye mera CNIC number darkar hai, aur maine 1234-5678901-2 provide kiya hai.",
+    "expected": "YES"
+  },
+  {
+    "id": "case_090",
+    "pair_id": "pair_Code_switch_Hajj_wristband_administrative_1",
+    "pair_member": "positive",
+    "language": "Code_switch",
+    "identifier_type": "Hajj_wristband",
+    "condition": "administrative",
+    "text": "Form mein mera حج wristband number manga gaya hai, aur maine HB-12345678 enter kiya hai.",
+    "expected": "YES"
+  },
+  {
+    "id": "case_050",
+    "pair_id": "pair_Roman_Urdu_ID_card_administrative_1",
+    "pair_member": "positive",
+    "language": "Roman_Urdu",
+    "identifier_type": "ID_card",
+    "condition": "administrative",
+    "text": "Form mein mera CNIC number manga gaya hai, aur maine 1234-5678901-2 enter kiya hai.",
+    "expected": "YES"
+  },
+  {
+    "id": "case_042",
+    "pair_id": "pair_Urdu_Hajj_wristband_administrative_1",
+    "pair_member": "positive",
+    "language": "Urdu",
+    "identifier_type": "Hajj_wristband",
+    "condition": "administrative",
+    "text": "فارم میں میرا حج کلائی بینڈ نمبر مانگا گیا ہے، اور میں نے HB-12345678 درج کیا ہے۔",
+    "expected": "YES"
+  },
+  {
+    "id": "case_066",
+    "pair_id": "pair_Roman_Urdu_Hajj_wristband_administrative_1",
+    "pair_member": "positive",
+    "language": "Roman_Urdu",
+    "identifier_type": "Hajj_wristband",
+    "condition": "administrative",
+    "text": "Form mein mera Hajj wristband number manga gaya hai, aur maine HB-12345678 enter kiya hai.",
+    "expected": "YES"
+  },
+  {
+    "id": "case_031",
+    "pair_id": "pair_Urdu_ID_card_explicit_non_disclosure_2",
+    "pair_member": "negative",
+    "language": "Urdu",
+    "identifier_type": "ID_card",
+    "condition": "explicit_non_disclosure",
+    "text": "مجھ سے میرا شناختی کارڈ نمبر فراہم کرنے کو کہا گیا، لیکن میں نے نمبر درج نہیں کیا۔",
+    "expected": "NO"
+  },
+  {
+    "id": "case_056",
+    "pair_id": "pair_Roman_Urdu_ID_card_explicit_non_disclosure_2",
+    "pair_member": "positive",
+    "language": "Roman_Urdu",
+    "identifier_type": "ID_card",
+    "condition": "explicit_non_disclosure",
+    "text": "Mujh se mera CNIC number provide karne ko kaha gaya, aur maine 1234-5678901-2 enter kiya hai.",
+    "expected": "YES"
+  },
+  {
+    "id": "case_073",
+    "pair_id": "pair_Code_switch_ID_card_administrative_1",
+    "pair_member": "negative",
+    "language": "Code_switch",
+    "identifier_type": "ID_card",
+    "condition": "administrative",
+    "text": "Form mein mera شناختی card number manga gaya hai.",
+    "expected": "NO"
+  },
+  {
+    "id": "case_046",
+    "pair_id": "pair_Urdu_Hajj_wristband_explicit_non_disclosure_1",
+    "pair_member": "positive",
+    "language": "Urdu",
+    "identifier_type": "Hajj_wristband",
+    "condition": "explicit_non_disclosure",
+    "text": "انہوں نے میرا حج کلائی بینڈ نمبر مانگا ہے، اور میں نے HB-12345678 فراہم کیا ہے۔",
+    "expected": "YES"
+  },
+  {
+    "id": "case_033",
+    "pair_id": "pair_Urdu_Passport_administrative_1",
+    "pair_member": "negative",
+    "language": "Urdu",
+    "identifier_type": "Passport",
+    "condition": "administrative",
+    "text": "فارم میں میرا پاسپورٹ نمبر مانگا گیا ہے۔",
+    "expected": "NO"
+  },
+  {
+    "id": "case_081",
+    "pair_id": "pair_Code_switch_Passport_administrative_1",
+    "pair_member": "negative",
+    "language": "Code_switch",
+    "identifier_type": "Passport",
+    "condition": "administrative",
+    "text": "Form mein mera passport number manga gaya hai.",
+    "expected": "NO"
+  },
+  {
+    "id": "case_068",
+    "pair_id": "pair_Roman_Urdu_Hajj_wristband_administrative_2",
+    "pair_member": "positive",
+    "language": "Roman_Urdu",
+    "identifier_type": "Hajj_wristband",
+    "condition": "administrative",
+    "text": "Tasdeeq ke liye mera Hajj wristband number darkar hai, aur maine HB-12345678 provide kiya hai.",
+    "expected": "YES"
+  },
+  {
+    "id": "case_092",
+    "pair_id": "pair_Code_switch_Hajj_wristband_administrative_2",
+    "pair_member": "positive",
+    "language": "Code_switch",
+    "identifier_type": "Hajj_wristband",
+    "condition": "administrative",
+    "text": "Verification ke liye mera حج wristband number required hai, aur maine HB-12345678 provide kiya hai.",
+    "expected": "YES"
+  },
+  {
+    "id": "case_009",
+    "pair_id": "pair_English_Passport_administrative_1",
+    "pair_member": "negative",
+    "language": "English",
+    "identifier_type": "Passport",
+    "condition": "administrative",
+    "text": "The form asks for my passport number.",
+    "expected": "NO"
+  },
+  {
+    "id": "case_038",
+    "pair_id": "pair_Urdu_Passport_explicit_non_disclosure_1",
+    "pair_member": "positive",
+    "language": "Urdu",
+    "identifier_type": "Passport",
+    "condition": "explicit_non_disclosure",
+    "text": "انہوں نے میرا پاسپورٹ نمبر مانگا ہے، اور میں نے P12345678 فراہم کیا ہے۔",
+    "expected": "YES"
+  },
+  {
+    "id": "case_077",
+    "pair_id": "pair_Code_switch_ID_card_explicit_non_disclosure_1",
+    "pair_member": "negative",
+    "language": "Code_switch",
+    "identifier_type": "ID_card",
+    "condition": "explicit_non_disclosure",
+    "text": "Unhon ne mera شناختی card number manga hai, lekin maine abhi woh provide nahi kiya.",
+    "expected": "NO"
+  },
+  {
+    "id": "case_080",
+    "pair_id": "pair_Code_switch_ID_card_explicit_non_disclosure_2",
+    "pair_member": "positive",
+    "language": "Code_switch",
+    "identifier_type": "ID_card",
+    "condition": "explicit_non_disclosure",
+    "text": "Mujh se mera شناختی card number provide karne ko kaha gaya, aur maine 1234-5678901-2 enter kiya hai.",
+    "expected": "YES"
+  },
+  {
+    "id": "case_048",
+    "pair_id": "pair_Urdu_Hajj_wristband_explicit_non_disclosure_2",
+    "pair_member": "positive",
+    "language": "Urdu",
+    "identifier_type": "Hajj_wristband",
+    "condition": "explicit_non_disclosure",
+    "text": "مجھ سے میرا حج کلائی بینڈ نمبر فراہم کرنے کو کہا گیا، اور میں نے HB-12345678 درج کیا ہے۔",
+    "expected": "YES"
+  },
+  {
+    "id": "case_045",
+    "pair_id": "pair_Urdu_Hajj_wristband_explicit_non_disclosure_1",
+    "pair_member": "negative",
+    "language": "Urdu",
+    "identifier_type": "Hajj_wristband",
+    "condition": "explicit_non_disclosure",
+    "text": "انہوں نے میرا حج کلائی بینڈ نمبر مانگا ہے، لیکن میں نے ابھی وہ فراہم نہیں کیا۔",
+    "expected": "NO"
+  },
+  {
+    "id": "case_043",
+    "pair_id": "pair_Urdu_Hajj_wristband_administrative_2",
+    "pair_member": "negative",
+    "language": "Urdu",
+    "identifier_type": "Hajj_wristband",
+    "condition": "administrative",
+    "text": "تصدیق کے لیے میرا حج کلائی بینڈ نمبر درکار ہے۔",
+    "expected": "NO"
+  },
+  {
+    "id": "case_095",
+    "pair_id": "pair_Code_switch_Hajj_wristband_explicit_non_disclosure_2",
+    "pair_member": "negative",
+    "language": "Code_switch",
+    "identifier_type": "Hajj_wristband",
+    "condition": "explicit_non_disclosure",
+    "text": "Mujh se mera حج wristband number provide karne ko kaha gaya, lekin maine number enter nahi kiya.",
+    "expected": "NO"
+  },
+  {
+    "id": "case_051",
+    "pair_id": "pair_Roman_Urdu_ID_card_administrative_2",
+    "pair_member": "negative",
+    "language": "Roman_Urdu",
+    "identifier_type": "ID_card",
+    "condition": "administrative",
+    "text": "Tasdeeq ke liye mera CNIC number darkar hai.",
+    "expected": "NO"
+  },
+  {
+    "id": "case_083",
+    "pair_id": "pair_Code_switch_Passport_administrative_2",
+    "pair_member": "negative",
+    "language": "Code_switch",
+    "identifier_type": "Passport",
+    "condition": "administrative",
+    "text": "Verification ke liye mera passport number required hai.",
+    "expected": "NO"
+  },
+  {
+    "id": "case_013",
+    "pair_id": "pair_English_Passport_explicit_non_disclosure_1",
+    "pair_member": "negative",
+    "language": "English",
+    "identifier_type": "Passport",
+    "condition": "explicit_non_disclosure",
+    "text": "They asked for my passport number, but I have not provided it.",
+    "expected": "NO"
+  },
+  {
+    "id": "case_037",
+    "pair_id": "pair_Urdu_Passport_explicit_non_disclosure_1",
+    "pair_member": "negative",
+    "language": "Urdu",
+    "identifier_type": "Passport",
+    "condition": "explicit_non_disclosure",
+    "text": "انہوں نے میرا پاسپورٹ نمبر مانگا ہے، لیکن میں نے ابھی وہ فراہم نہیں کیا۔",
+    "expected": "NO"
+  },
+  {
+    "id": "case_024",
+    "pair_id": "pair_English_Hajj_wristband_explicit_non_disclosure_2",
+    "pair_member": "positive",
+    "language": "English",
+    "identifier_type": "Hajj_wristband",
+    "condition": "explicit_non_disclosure",
+    "text": "I was asked to provide my Hajj wristband number, and I entered HB-12345678.",
+    "expected": "YES"
+  },
+  {
+    "id": "case_040",
+    "pair_id": "pair_Urdu_Passport_explicit_non_disclosure_2",
+    "pair_member": "positive",
+    "language": "Urdu",
+    "identifier_type": "Passport",
+    "condition": "explicit_non_disclosure",
+    "text": "مجھ سے میرا پاسپورٹ نمبر فراہم کرنے کو کہا گیا، اور میں نے P12345678 درج کیا ہے۔",
+    "expected": "YES"
+  },
+  {
+    "id": "case_041",
+    "pair_id": "pair_Urdu_Hajj_wristband_administrative_1",
+    "pair_member": "negative",
+    "language": "Urdu",
+    "identifier_type": "Hajj_wristband",
+    "condition": "administrative",
+    "text": "فارم میں میرا حج کلائی بینڈ نمبر مانگا گیا ہے۔",
+    "expected": "NO"
+  },
+  {
+    "id": "case_019",
+    "pair_id": "pair_English_Hajj_wristband_administrative_2",
+    "pair_member": "negative",
+    "language": "English",
+    "identifier_type": "Hajj_wristband",
+    "condition": "administrative",
+    "text": "My Hajj wristband number is required for verification.",
+    "expected": "NO"
+  },
+  {
+    "id": "case_078",
+    "pair_id": "pair_Code_switch_ID_card_explicit_non_disclosure_1",
+    "pair_member": "positive",
+    "language": "Code_switch",
+    "identifier_type": "ID_card",
+    "condition": "explicit_non_disclosure",
+    "text": "Unhon ne mera شناختی card number manga hai, aur maine 1234-5678901-2 provide kiya hai.",
+    "expected": "YES"
+  },
+  {
+    "id": "case_071",
+    "pair_id": "pair_Roman_Urdu_Hajj_wristband_explicit_non_disclosure_2",
+    "pair_member": "negative",
+    "language": "Roman_Urdu",
+    "identifier_type": "Hajj_wristband",
+    "condition": "explicit_non_disclosure",
+    "text": "Mujh se mera Hajj wristband number provide karne ko kaha gaya, lekin maine number enter nahi kiya.",
+    "expected": "NO"
+  },
+  {
+    "id": "case_057",
+    "pair_id": "pair_Roman_Urdu_Passport_administrative_1",
+    "pair_member": "negative",
+    "language": "Roman_Urdu",
+    "identifier_type": "Passport",
+    "condition": "administrative",
+    "text": "Form mein mera passport number manga gaya hai.",
+    "expected": "NO"
+  },
+  {
+    "id": "case_008",
+    "pair_id": "pair_English_ID_card_explicit_non_disclosure_2",
+    "pair_member": "positive",
+    "language": "English",
+    "identifier_type": "ID_card",
+    "condition": "explicit_non_disclosure",
+    "text": "I was asked to provide my ID card number, and I entered 1234-5678901-2.",
+    "expected": "YES"
+  },
+  {
+    "id": "case_035",
+    "pair_id": "pair_Urdu_Passport_administrative_2",
+    "pair_member": "negative",
+    "language": "Urdu",
+    "identifier_type": "Passport",
+    "condition": "administrative",
+    "text": "تصدیق کے لیے میرا پاسپورٹ نمبر درکار ہے۔",
+    "expected": "NO"
+  },
+  {
+    "id": "case_079",
+    "pair_id": "pair_Code_switch_ID_card_explicit_non_disclosure_2",
+    "pair_member": "negative",
+    "language": "Code_switch",
+    "identifier_type": "ID_card",
+    "condition": "explicit_non_disclosure",
+    "text": "Mujh se mera شناختی card number provide karne ko kaha gaya, lekin maine number enter nahi kiya.",
+    "expected": "NO"
+  },
+  {
+    "id": "case_047",
+    "pair_id": "pair_Urdu_Hajj_wristband_explicit_non_disclosure_2",
+    "pair_member": "negative",
+    "language": "Urdu",
+    "identifier_type": "Hajj_wristband",
+    "condition": "explicit_non_disclosure",
+    "text": "مجھ سے میرا حج کلائی بینڈ نمبر فراہم کرنے کو کہا گیا، لیکن میں نے نمبر درج نہیں کیا۔",
+    "expected": "NO"
+  },
+  {
+    "id": "case_003",
+    "pair_id": "pair_English_ID_card_administrative_2",
+    "pair_member": "negative",
+    "language": "English",
+    "identifier_type": "ID_card",
+    "condition": "administrative",
+    "text": "My ID card number is required for verification.",
+    "expected": "NO"
+  },
+  {
+    "id": "case_017",
+    "pair_id": "pair_English_Hajj_wristband_administrative_1",
+    "pair_member": "negative",
+    "language": "English",
+    "identifier_type": "Hajj_wristband",
+    "condition": "administrative",
+    "text": "The form asks for my Hajj wristband number.",
+    "expected": "NO"
+  },
+  {
+    "id": "case_039",
+    "pair_id": "pair_Urdu_Passport_explicit_non_disclosure_2",
+    "pair_member": "negative",
+    "language": "Urdu",
+    "identifier_type": "Passport",
+    "condition": "explicit_non_disclosure",
+    "text": "مجھ سے میرا پاسپورٹ نمبر فراہم کرنے کو کہا گیا، لیکن میں نے نمبر درج نہیں کیا۔",
+    "expected": "NO"
+  },
+  {
+    "id": "case_067",
+    "pair_id": "pair_Roman_Urdu_Hajj_wristband_administrative_2",
+    "pair_member": "negative",
+    "language": "Roman_Urdu",
+    "identifier_type": "Hajj_wristband",
+    "condition": "administrative",
+    "text": "Tasdeeq ke liye mera Hajj wristband number darkar hai.",
+    "expected": "NO"
+  },
+  {
+    "id": "case_023",
+    "pair_id": "pair_English_Hajj_wristband_explicit_non_disclosure_2",
+    "pair_member": "negative",
+    "language": "English",
+    "identifier_type": "Hajj_wristband",
+    "condition": "explicit_non_disclosure",
+    "text": "I was asked to provide my Hajj wristband number, but I did not enter it.",
+    "expected": "NO"
+  },
+  {
+    "id": "case_059",
+    "pair_id": "pair_Roman_Urdu_Passport_administrative_2",
+    "pair_member": "negative",
+    "language": "Roman_Urdu",
+    "identifier_type": "Passport",
+    "condition": "administrative",
+    "text": "Tasdeeq ke liye mera passport number darkar hai.",
+    "expected": "NO"
+  },
+  {
+    "id": "case_025",
+    "pair_id": "pair_Urdu_ID_card_administrative_1",
+    "pair_member": "negative",
+    "language": "Urdu",
+    "identifier_type": "ID_card",
+    "condition": "administrative",
+    "text": "فارم میں میرا شناختی کارڈ نمبر مانگا گیا ہے۔",
+    "expected": "NO"
+  },
+  {
+    "id": "case_006",
+    "pair_id": "pair_English_ID_card_explicit_non_disclosure_1",
+    "pair_member": "positive",
+    "language": "English",
+    "identifier_type": "ID_card",
+    "condition": "explicit_non_disclosure",
+    "text": "They asked for my ID card number, and I provided 1234-5678901-2.",
+    "expected": "YES"
+  },
+  {
+    "id": "case_007",
+    "pair_id": "pair_English_ID_card_explicit_non_disclosure_2",
+    "pair_member": "negative",
+    "language": "English",
+    "identifier_type": "ID_card",
+    "condition": "explicit_non_disclosure",
+    "text": "I was asked to provide my ID card number, but I did not enter it.",
+    "expected": "NO"
+  },
+  {
+    "id": "case_022",
+    "pair_id": "pair_English_Hajj_wristband_explicit_non_disclosure_1",
+    "pair_member": "positive",
+    "language": "English",
+    "identifier_type": "Hajj_wristband",
+    "condition": "explicit_non_disclosure",
+    "text": "They asked for my Hajj wristband number, and I provided HB-12345678.",
+    "expected": "YES"
+  },
+  {
+    "id": "case_049",
+    "pair_id": "pair_Roman_Urdu_ID_card_administrative_1",
+    "pair_member": "negative",
+    "language": "Roman_Urdu",
+    "identifier_type": "ID_card",
+    "condition": "administrative",
+    "text": "Form mein mera CNIC number manga gaya hai.",
+    "expected": "NO"
+  },
+  {
+    "id": "case_062",
+    "pair_id": "pair_Roman_Urdu_Passport_explicit_non_disclosure_1",
+    "pair_member": "positive",
+    "language": "Roman_Urdu",
+    "identifier_type": "Passport",
+    "condition": "explicit_non_disclosure",
+    "text": "Unhon ne mera passport number manga hai, aur maine P12345678 provide kiya hai.",
+    "expected": "YES"
+  },
+  {
+    "id": "case_089",
+    "pair_id": "pair_Code_switch_Hajj_wristband_administrative_1",
+    "pair_member": "negative",
+    "language": "Code_switch",
+    "identifier_type": "Hajj_wristband",
+    "condition": "administrative",
+    "text": "Form mein mera حج wristband number manga gaya hai.",
+    "expected": "NO"
+  },
+  {
+    "id": "case_020",
+    "pair_id": "pair_English_Hajj_wristband_administrative_2",
+    "pair_member": "positive",
+    "language": "English",
+    "identifier_type": "Hajj_wristband",
+    "condition": "administrative",
+    "text": "My Hajj wristband number is required for verification, and I provided HB-12345678.",
+    "expected": "YES"
+  },
+  {
+    "id": "case_074",
+    "pair_id": "pair_Code_switch_ID_card_administrative_1",
+    "pair_member": "positive",
+    "language": "Code_switch",
+    "identifier_type": "ID_card",
+    "condition": "administrative",
+    "text": "Form mein mera شناختی card number manga gaya hai, aur maine 1234-5678901-2 enter kiya hai.",
+    "expected": "YES"
+  },
+  {
+    "id": "case_044",
+    "pair_id": "pair_Urdu_Hajj_wristband_administrative_2",
+    "pair_member": "positive",
+    "language": "Urdu",
+    "identifier_type": "Hajj_wristband",
+    "condition": "administrative",
+    "text": "تصدیق کے لیے میرا حج کلائی بینڈ نمبر درکار ہے، اور میں نے HB-12345678 فراہم کیا ہے۔",
+    "expected": "YES"
+  },
+  {
+    "id": "case_084",
+    "pair_id": "pair_Code_switch_Passport_administrative_2",
+    "pair_member": "positive",
+    "language": "Code_switch",
+    "identifier_type": "Passport",
+    "condition": "administrative",
+    "text": "Verification ke liye mera passport number required hai, aur maine P12345678 provide kiya hai.",
+    "expected": "YES"
+  },
+  {
+    "id": "case_021",
+    "pair_id": "pair_English_Hajj_wristband_explicit_non_disclosure_1",
+    "pair_member": "negative",
+    "language": "English",
+    "identifier_type": "Hajj_wristband",
+    "condition": "explicit_non_disclosure",
+    "text": "They asked for my Hajj wristband number, but I have not provided it.",
+    "expected": "NO"
+  },
+  {
+    "id": "case_001",
+    "pair_id": "pair_English_ID_card_administrative_1",
+    "pair_member": "negative",
+    "language": "English",
+    "identifier_type": "ID_card",
+    "condition": "administrative",
+    "text": "The form asks for my ID card number.",
+    "expected": "NO"
+  },
+  {
+    "id": "case_093",
+    "pair_id": "pair_Code_switch_Hajj_wristband_explicit_non_disclosure_1",
+    "pair_member": "negative",
+    "language": "Code_switch",
+    "identifier_type": "Hajj_wristband",
+    "condition": "explicit_non_disclosure",
+    "text": "Unhon ne mera حج wristband number manga hai, lekin maine abhi woh provide nahi kiya.",
+    "expected": "NO"
+  },
+  {
+    "id": "case_058",
+    "pair_id": "pair_Roman_Urdu_Passport_administrative_1",
+    "pair_member": "positive",
+    "language": "Roman_Urdu",
+    "identifier_type": "Passport",
+    "condition": "administrative",
+    "text": "Form mein mera passport number manga gaya hai, aur maine P12345678 enter kiya hai.",
+    "expected": "YES"
+  },
+  {
+    "id": "case_091",
+    "pair_id": "pair_Code_switch_Hajj_wristband_administrative_2",
+    "pair_member": "negative",
+    "language": "Code_switch",
+    "identifier_type": "Hajj_wristband",
+    "condition": "administrative",
+    "text": "Verification ke liye mera حج wristband number required hai.",
+    "expected": "NO"
+  },
+  {
+    "id": "case_054",
+    "pair_id": "pair_Roman_Urdu_ID_card_explicit_non_disclosure_1",
+    "pair_member": "positive",
+    "language": "Roman_Urdu",
+    "identifier_type": "ID_card",
+    "condition": "explicit_non_disclosure",
+    "text": "Unhon ne mera CNIC number manga hai, aur maine 1234-5678901-2 provide kiya hai.",
+    "expected": "YES"
+  },
+  {
+    "id": "case_088",
+    "pair_id": "pair_Code_switch_Passport_explicit_non_disclosure_2",
+    "pair_member": "positive",
+    "language": "Code_switch",
+    "identifier_type": "Passport",
+    "condition": "explicit_non_disclosure",
+    "text": "Mujh se mera passport number provide karne ko kaha gaya, aur maine P12345678 enter kiya hai.",
+    "expected": "YES"
+  },
+  {
+    "id": "case_026",
+    "pair_id": "pair_Urdu_ID_card_administrative_1",
+    "pair_member": "positive",
+    "language": "Urdu",
+    "identifier_type": "ID_card",
+    "condition": "administrative",
+    "text": "فارم میں میرا شناختی کارڈ نمبر مانگا گیا ہے، اور میں نے 1234-5678901-2 درج کیا ہے۔",
+    "expected": "YES"
+  },
+  {
+    "id": "case_072",
+    "pair_id": "pair_Roman_Urdu_Hajj_wristband_explicit_non_disclosure_2",
+    "pair_member": "positive",
+    "language": "Roman_Urdu",
+    "identifier_type": "Hajj_wristband",
+    "condition": "explicit_non_disclosure",
+    "text": "Mujh se mera Hajj wristband number provide karne ko kaha gaya, aur maine HB-12345678 enter kiya hai.",
+    "expected": "YES"
+  },
+  {
+    "id": "case_096",
+    "pair_id": "pair_Code_switch_Hajj_wristband_explicit_non_disclosure_2",
+    "pair_member": "positive",
+    "language": "Code_switch",
+    "identifier_type": "Hajj_wristband",
+    "condition": "explicit_non_disclosure",
+    "text": "Mujh se mera حج wristband number provide karne ko kaha gaya, aur maine HB-12345678 enter kiya hai.",
+    "expected": "YES"
+  },
+  {
+    "id": "case_065",
+    "pair_id": "pair_Roman_Urdu_Hajj_wristband_administrative_1",
+    "pair_member": "negative",
+    "language": "Roman_Urdu",
+    "identifier_type": "Hajj_wristband",
+    "condition": "administrative",
+    "text": "Form mein mera Hajj wristband number manga gaya hai.",
+    "expected": "NO"
+  },
+  {
+    "id": "case_030",
+    "pair_id": "pair_Urdu_ID_card_explicit_non_disclosure_1",
+    "pair_member": "positive",
+    "language": "Urdu",
+    "identifier_type": "ID_card",
+    "condition": "explicit_non_disclosure",
+    "text": "انہوں نے میرا شناختی کارڈ نمبر مانگا ہے، اور میں نے 1234-5678901-2 فراہم کیا ہے۔",
+    "expected": "YES"
+  },
+  {
+    "id": "case_028",
+    "pair_id": "pair_Urdu_ID_card_administrative_2",
+    "pair_member": "positive",
+    "language": "Urdu",
+    "identifier_type": "ID_card",
+    "condition": "administrative",
+    "text": "تصدیق کے لیے میرا شناختی کارڈ نمبر درکار ہے، اور میں نے 1234-5678901-2 فراہم کیا ہے۔",
+    "expected": "YES"
+  },
+  {
+    "id": "case_086",
+    "pair_id": "pair_Code_switch_Passport_explicit_non_disclosure_1",
+    "pair_member": "positive",
+    "language": "Code_switch",
+    "identifier_type": "Passport",
+    "condition": "explicit_non_disclosure",
+    "text": "Unhon ne mera passport number manga hai, aur maine P12345678 provide kiya hai.",
+    "expected": "YES"
+  },
+  {
+    "id": "case_094",
+    "pair_id": "pair_Code_switch_Hajj_wristband_explicit_non_disclosure_1",
+    "pair_member": "positive",
+    "language": "Code_switch",
+    "identifier_type": "Hajj_wristband",
+    "condition": "explicit_non_disclosure",
+    "text": "Unhon ne mera حج wristband number manga hai, aur maine HB-12345678 provide kiya hai.",
+    "expected": "YES"
+  },
+  {
+    "id": "case_005",
+    "pair_id": "pair_English_ID_card_explicit_non_disclosure_1",
+    "pair_member": "negative",
+    "language": "English",
+    "identifier_type": "ID_card",
+    "condition": "explicit_non_disclosure",
+    "text": "They asked for my ID card number, but I have not provided it.",
+    "expected": "NO"
+  },
+  {
+    "id": "case_055",
+    "pair_id": "pair_Roman_Urdu_ID_card_explicit_non_disclosure_2",
+    "pair_member": "negative",
+    "language": "Roman_Urdu",
+    "identifier_type": "ID_card",
+    "condition": "explicit_non_disclosure",
+    "text": "Mujh se mera CNIC number provide karne ko kaha gaya, lekin maine number enter nahi kiya.",
+    "expected": "NO"
+  },
+  {
+    "id": "case_076",
+    "pair_id": "pair_Code_switch_ID_card_administrative_2",
+    "pair_member": "positive",
+    "language": "Code_switch",
+    "identifier_type": "ID_card",
+    "condition": "administrative",
+    "text": "Verification ke liye mera شناختی card number required hai, aur maine 1234-5678901-2 provide kiya hai.",
+    "expected": "YES"
+  },
+  {
+    "id": "case_012",
+    "pair_id": "pair_English_Passport_administrative_2",
+    "pair_member": "positive",
+    "language": "English",
+    "identifier_type": "Passport",
+    "condition": "administrative",
+    "text": "My passport number is required for verification, and I provided P12345678.",
+    "expected": "YES"
+  },
+  {
+    "id": "case_070",
+    "pair_id": "pair_Roman_Urdu_Hajj_wristband_explicit_non_disclosure_1",
+    "pair_member": "positive",
+    "language": "Roman_Urdu",
+    "identifier_type": "Hajj_wristband",
+    "condition": "explicit_non_disclosure",
+    "text": "Unhon ne mera Hajj wristband number manga hai, aur maine HB-12345678 provide kiya hai.",
+    "expected": "YES"
+  },
+  {
+    "id": "case_087",
+    "pair_id": "pair_Code_switch_Passport_explicit_non_disclosure_2",
+    "pair_member": "negative",
+    "language": "Code_switch",
+    "identifier_type": "Passport",
+    "condition": "explicit_non_disclosure",
+    "text": "Mujh se mera passport number provide karne ko kaha gaya, lekin maine number enter nahi kiya.",
+    "expected": "NO"
+  },
+  {
+    "id": "case_014",
+    "pair_id": "pair_English_Passport_explicit_non_disclosure_1",
+    "pair_member": "positive",
+    "language": "English",
+    "identifier_type": "Passport",
+    "condition": "explicit_non_disclosure",
+    "text": "They asked for my passport number, and I provided P12345678.",
+    "expected": "YES"
+  },
+  {
+    "id": "case_018",
+    "pair_id": "pair_English_Hajj_wristband_administrative_1",
+    "pair_member": "positive",
+    "language": "English",
+    "identifier_type": "Hajj_wristband",
+    "condition": "administrative",
+    "text": "The form asks for my Hajj wristband number, and I entered HB-12345678.",
+    "expected": "YES"
+  },
+  {
+    "id": "case_029",
+    "pair_id": "pair_Urdu_ID_card_explicit_non_disclosure_1",
+    "pair_member": "negative",
+    "language": "Urdu",
+    "identifier_type": "ID_card",
+    "condition": "explicit_non_disclosure",
+    "text": "انہوں نے میرا شناختی کارڈ نمبر مانگا ہے، لیکن میں نے ابھی وہ فراہم نہیں کیا۔",
+    "expected": "NO"
+  },
+  {
+    "id": "case_032",
+    "pair_id": "pair_Urdu_ID_card_explicit_non_disclosure_2",
+    "pair_member": "positive",
+    "language": "Urdu",
+    "identifier_type": "ID_card",
+    "condition": "explicit_non_disclosure",
+    "text": "مجھ سے میرا شناختی کارڈ نمبر فراہم کرنے کو کہا گیا، اور میں نے 1234-5678901-2 درج کیا ہے۔",
+    "expected": "YES"
+  },
+  {
+    "id": "case_036",
+    "pair_id": "pair_Urdu_Passport_administrative_2",
+    "pair_member": "positive",
+    "language": "Urdu",
+    "identifier_type": "Passport",
+    "condition": "administrative",
+    "text": "تصدیق کے لیے میرا پاسپورٹ نمبر درکار ہے، اور میں نے P12345678 فراہم کیا ہے۔",
+    "expected": "YES"
+  },
+  {
+    "id": "case_004",
+    "pair_id": "pair_English_ID_card_administrative_2",
+    "pair_member": "positive",
+    "language": "English",
+    "identifier_type": "ID_card",
+    "condition": "administrative",
+    "text": "My ID card number is required for verification, and I provided 1234-5678901-2.",
+    "expected": "YES"
+  },
+  {
+    "id": "case_015",
+    "pair_id": "pair_English_Passport_explicit_non_disclosure_2",
+    "pair_member": "negative",
+    "language": "English",
+    "identifier_type": "Passport",
+    "condition": "explicit_non_disclosure",
+    "text": "I was asked to provide my passport number, but I did not enter it.",
+    "expected": "NO"
+  },
+  {
+    "id": "case_082",
+    "pair_id": "pair_Code_switch_Passport_administrative_1",
+    "pair_member": "positive",
+    "language": "Code_switch",
+    "identifier_type": "Passport",
+    "condition": "administrative",
+    "text": "Form mein mera passport number manga gaya hai, aur maine P12345678 enter kiya hai.",
+    "expected": "YES"
+  }
+]
