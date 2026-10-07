@@ -1,6 +1,6 @@
 # The Multilingual Identity-Number Blind Spot
 
-**AI Safety Research Project — Fatima Institute of Technology**
+**AI Safety Research Project - Fatima Institute of Technology**
 
 **Researcher:** Ayesha Fareed  
 **Model:** Qwen/Qwen3-4B-Instruct-2507
