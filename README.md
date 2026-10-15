@@ -160,34 +160,17 @@ DOI: https://doi.org/10.5281/zenodo.21791842
 **Fareed, A. (2026).** *Designing Culturally and Spiritually Sensitive AI Assistants for High-Density Religious Environments: A Prompt Engineering Framework Applied at Masjid al-Haram.* Zenodo.
 
 
----
-
 ## 📚 Connected Preprints
 
 The formal manuscripts associated with these evaluations are hosted in the [`papers/`](./papers) folder:
 
-* **[Preprint] Multilingual Voice AI for Pilgrim Assistance** 
-  * 📄 [Read PDF](./papers/Multilingual%20Voice%20AI%20for%20Pilgrim%20Assistance_%20STT%20Relia...) | 🌐 [Zenodo](https://zenodo.org)
-* **[Preprint] Designing Culturally and Spiritually Sensitive AI Assistants** 
-  * 📄 [Read PDF](./papers/Designing%20Culturally%20and%20Spiritually%20Sensitive%20AI%20Assist...) | 🌐 [Zenodo](https://zenodo.org)
+* **[Preprint] Multilingual Voice AI for Pilgrim Assistance: STT Reliability, Bias by Invisibility, and Ethical Deployment in Sacred Environments** 
+  * 📄 [Read PDF](./papers/Multilingual%20Voice%20AI%20for%20Pilgrim%20Assistance_%20STT%20Reliability,%20Bias%20by%20Invisibility,%20and%20Ethical%20Deployment%20in%20Sacred%20Environments%20(1).pdf) | 🌐 [Zenodo Record](https://zenodo.org)
+  * [![DOI](https://zenodo.org)](https://doi.org/10.5281/zenodo.21791842)
 
-DOI: https://doi.org/10.5281/zenodo.21726075
-
-## Ethical Considerations
-
-No real personal identity numbers were used. All identifiers in the benchmark are synthetic.
-
-The purpose of the project is to study model behavior and identify potential evaluation blind spots, not to collect or expose personal information.
-
-## Future Work
-
-Future research could examine additional models, larger naturally occurring or carefully de-identified datasets, more languages and dialects, and stronger contrastive evaluation methods.
-
-A further direction would be to investigate whether matched multilingual examples and structured evaluation can improve the distinction between actual disclosure and discussion of sensitive information.
-
-## Citation
-
-If you reference this work, please cite:
+* **[Preprint] Designing Culturally and Spiritually Sensitive AI Assistants for High-Density Religious Environments: A Prompt Engineering Framework Applied at Masjid al-Haram** 
+  * 📄 [Read PDF](./papers/Designing%20Culturally%20and%20Spiritually%20Sensitive%20AI%20Assistants%20for%20High-Density%20Religious%20Environments%20A%20Prompt%20Engineering%20Framework%20Applied%20at%20Masjid%20al-Haram.pdf) | 🌐 [Zenodo Record](https://zenodo.org)
+  * [![DOI](https://zenodo.org)](https://doi.org/10.5281/zenodo.21726075)
 
 > Fareed, A. (2026). *The Multilingual Identity-Number Blind Spot: Stress-Testing LLM Privacy Protection Across Language, Disclosure Form, and Surface Representation.*
 
