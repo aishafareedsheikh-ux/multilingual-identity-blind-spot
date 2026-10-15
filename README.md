@@ -159,6 +159,18 @@ DOI: https://doi.org/10.5281/zenodo.21791842
 
 **Fareed, A. (2026).** *Designing Culturally and Spiritually Sensitive AI Assistants for High-Density Religious Environments: A Prompt Engineering Framework Applied at Masjid al-Haram.* Zenodo.
 
+
+---
+
+## 📚 Connected Preprints
+
+The formal manuscripts associated with these evaluations are hosted in the [`papers/`](./papers) folder:
+
+* **[Preprint] Multilingual Voice AI for Pilgrim Assistance** 
+  * 📄 [Read PDF](./papers/Multilingual%20Voice%20AI%20for%20Pilgrim%20Assistance_%20STT%20Relia...) | 🌐 [Zenodo](https://zenodo.org)
+* **[Preprint] Designing Culturally and Spiritually Sensitive AI Assistants** 
+  * 📄 [Read PDF](./papers/Designing%20Culturally%20and%20Spiritually%20Sensitive%20AI%20Assist...) | 🌐 [Zenodo](https://zenodo.org)
+
 DOI: https://doi.org/10.5281/zenodo.21726075
 
 ## Ethical Considerations
